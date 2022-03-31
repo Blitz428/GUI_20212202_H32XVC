@@ -8,15 +8,38 @@
         Title="Game" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
 
         </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Label Content="Music Name" FontSize="20" />
+        </StackPanel>
         <StackPanel Grid.Column="1">
-            
+            <Button Content="↑"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="2">
+            <Button Content="←"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="3">
+            <Button Content="↓"/>
         </StackPanel>
         
+        <StackPanel Grid.Column="4">
+            <Button Content="→"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Column="5">
+            <Label Content="Points: " FontSize="15"/>
+            <Button Content="Menu" FontSize="25" />
+        </StackPanel>
+
 
     </Grid>
 </Window>
