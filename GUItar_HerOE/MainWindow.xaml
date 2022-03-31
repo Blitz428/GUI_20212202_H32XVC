@@ -1,0 +1,25 @@
+﻿<Window x:Class="GUItar_HerOE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUItar_HerOE"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+            
+        </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="1">
+                <Label Content="GUItar_HerOE" FontSize="15"/>
+                <Button Content="New Game" FontSize="20"/>
+                <Button Content="Levels" FontSize="20"/>
+                <Button Content="Select Song" FontSize="20"/>
+            </StackPanel>
+        
+
+    </Grid>
+</Window>
