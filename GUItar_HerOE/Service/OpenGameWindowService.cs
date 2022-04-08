@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace GUItar_HerOE.Service
 {
-    public class LevelsService : IOpenWindowService
+    public class OpenGameWindowService : IOpenGameWindowService
     {
         public void Open()
         {
-            new Levels().ShowDialog();
+            new Game().ShowDialog();
         }
     }
 }

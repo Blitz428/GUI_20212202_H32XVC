@@ -22,8 +22,8 @@ namespace GUItar_HerOE
             Ioc.Default.ConfigureServices(new ServiceCollection()
                 .AddSingleton<IMenuLogic, MenuLogic>()
                 .AddSingleton<IGameLogic, GameLogic>()
-                .AddSingleton<IOpenWindowService, LevelsService>()
-                .AddSingleton<IOpenWindowService, GameService>()
+                .AddSingleton<IOpenGameWindowService, OpenGameWindowService>()
+                .AddSingleton<IOpenLevelsWindowService, OpenLevelsWindowService>()
                 .BuildServiceProvider());
         }
     }

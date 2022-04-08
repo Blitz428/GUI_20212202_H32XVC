@@ -9,22 +9,23 @@ namespace GUItar_HerOE.Logic
 {
     public class MenuLogic : IMenuLogic
     {
-        private IOpenWindowService openWindowService;
+        private IOpenGameWindowService openGameWindow;
+        private IOpenLevelsWindowService openLevelsWindowService;
 
-        public MenuLogic(IOpenWindowService openWindowService)
+        public MenuLogic(IOpenGameWindowService openGameWindow, IOpenLevelsWindowService openLevelsWindowService)
         {
-            this.openWindowService = openWindowService;
+            this.openGameWindow = openGameWindow;
+            this.openLevelsWindowService = openLevelsWindowService;
         }
 
         public void OpenLevelsWindow()
         {
-            (openWindowService as LevelsService).Open();
+            openLevelsWindowService.Open();
         }
 
         public void OpenGameWindow()
         {
-            (openWindowService as GameService).Open();
+            openGameWindow.Open();
         }
- 
     }
 }
