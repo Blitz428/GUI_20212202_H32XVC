@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUItar_HerOE"
         mc:Ignorable="d"
-        Title="Game" Height="450" Width="800">
+        Title="Game" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
@@ -37,7 +38,7 @@
         
         <StackPanel Grid.Column="5">
             <Label Content="Points: " FontSize="15"/>
-            <Button Content="Menu" FontSize="25" />
+            <Button Content="Menu" FontSize="25" Click="Button_Click"/>
         </StackPanel>
 
 
