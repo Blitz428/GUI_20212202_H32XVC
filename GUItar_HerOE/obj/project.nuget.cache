@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "gU3dAHzWNe9C6Bh4yRF0c96WkTip0e5F/D7H0Eki5m56yymAlf5JsQrRZ4WSvLIiG6P9Ef58MEU2czyr5nUDzw==",
+  "dgSpecHash": "Fp+yOwEIMJ1+wuFHRlzD7kcbNyhBIvNANdonINZwZ+VLcwI1Vky2NbaX9Os7WaZukoWEP0fhqNkmtf698pwThA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hegedűs Bence\\source\\repos\\GUI_20212202_H32XVC\\GitraHero\\GUItar_HerOE\\GUItar_HerOE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

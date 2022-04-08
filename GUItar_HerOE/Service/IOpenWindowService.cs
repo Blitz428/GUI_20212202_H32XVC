@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GUItar_HerOE.Logic
+namespace GUItar_HerOE.Service
 {
-    public class GameLogic : IGameLogic
+    public interface IOpenWindowService
     {
+        public void Open();
     }
 }

@@ -22,6 +22,7 @@ namespace GUItar_HerOE
         public Levels()
         {
             InitializeComponent();
+
         }
     }
 }

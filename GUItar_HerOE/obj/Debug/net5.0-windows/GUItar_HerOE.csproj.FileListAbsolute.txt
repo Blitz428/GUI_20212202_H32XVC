@@ -21,8 +21,11 @@ C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\
 C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.AssemblyInfoInputs.cache
 C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.AssemblyInfo.cs
 C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.CoreCompileInputs.cache
-C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.CopyComplete
 C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.dll
 C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\ref\GUItar_HerOE.dll
 C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.pdb
 C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.genruntimeconfig.cache
+C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
