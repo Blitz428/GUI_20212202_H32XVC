@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "do3uj3isedZwNT9TUIWf/LehchARCmLeh1j+p4FHiMJwdw4JUR8OLRSiwo5ldQjxvaS5Ei88Zjs9Uqx2RrGexQ==",
+  "dgSpecHash": "gU3dAHzWNe9C6Bh4yRF0c96WkTip0e5F/D7H0Eki5m56yymAlf5JsQrRZ4WSvLIiG6P9Ef58MEU2czyr5nUDzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+  "projectFilePath": "C:\\Users\\Hegedűs Bence\\source\\repos\\GUI_20212202_H32XVC\\GitraHero\\GUItar_HerOE\\GUItar_HerOE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\szege\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
   ],
   "logs": []
 }
