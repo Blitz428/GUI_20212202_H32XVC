@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="menu.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Converter\" />
     <Folder Include="Models\" />
   </ItemGroup>
@@ -14,6 +18,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="menu.jpg" />
   </ItemGroup>
 
 </Project>

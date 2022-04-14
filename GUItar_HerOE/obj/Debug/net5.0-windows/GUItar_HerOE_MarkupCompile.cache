@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\obj\Debug\net5.0-windows\
-GUItar_HerOE
+C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\
+GUItar_HerOE_u5uitc2p_wpftmp
 none
 false
-TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\Hegedűs Bence\source\repos\GUI_20212202_H32XVC\GitraHero\GUItar_HerOE\App.xaml
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
+C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\App.xaml
 31436761404
 
-19-2143201472
-196-67508507
+24-1289467796
+392-1079142616
 Game.xaml;Levels.xaml;MainWindow.xaml;
 
-False
+True
 
