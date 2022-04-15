@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\
-GUItar_HerOE_u5uitc2p_wpftmp
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\
+GUItar_HerOE
 none
 false
-TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\App.xaml
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\App.xaml
 31436761404
 
-24-1289467796
-392-1079142616
+19-2143201472
+205-1259188926
 Game.xaml;Levels.xaml;MainWindow.xaml;
 
-True
+False
 

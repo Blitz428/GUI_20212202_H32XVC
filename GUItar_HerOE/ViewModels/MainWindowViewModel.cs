@@ -17,7 +17,16 @@ namespace GUItar_HerOE.ViewModels
     {
         public ICommand OpenLevelsWindow { get; set; }
         public ICommand OpenGameWindow { get; set; }
+        public ICommand OpenFileBrowser { get; set; }
+        public ICommand UnlockLevels { get; set; }
         private IMenuLogic logic;
+        
+        private bool isUnlock;
+
+        public bool IsUnlock
+        {
+            get { return isUnlock = logic.isUnlock; }
+        }
 
         public static bool IsInDesignMode
         {
@@ -36,6 +45,7 @@ namespace GUItar_HerOE.ViewModels
         public MainWindowViewModel(IMenuLogic logic)
         {
             this.logic = logic;
+            isUnlock = false;
 
             OpenLevelsWindow = new RelayCommand(
                 () => logic.OpenLevelsWindow()
@@ -44,6 +54,21 @@ namespace GUItar_HerOE.ViewModels
             OpenGameWindow = new RelayCommand(
                 () => logic.OpenGameWindow()
                 );
+
+            OpenFileBrowser = new RelayCommand(
+               () => logic.OpenFileBrowser()
+               );
+
+            UnlockLevels = new RelayCommand(
+               () => logic.UnlockLevels()
+               );
+
+            Messenger.Register<MainWindowViewModel, string, string>(this, "MenuInfo", (recepient, msg) =>
+            {
+                OnPropertyChanged(nameof(isUnlock));
+            });
         }
+
+
     }
 }

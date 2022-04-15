@@ -19,6 +19,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Controls.Ribbon;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms.Integration;
 using System.Windows.Ink;
 using System.Windows.Input;
 using System.Windows.Markup;
@@ -45,7 +46,7 @@ namespace GUItar_HerOE {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.0.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.10.0")]
         public void InitializeComponent() {
             
             #line 5 "..\..\..\App.xaml"
@@ -60,7 +61,7 @@ namespace GUItar_HerOE {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.0.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.10.0")]
         public static void Main() {
             GUItar_HerOE.App app = new GUItar_HerOE.App();
             app.InitializeComponent();

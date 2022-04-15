@@ -61,3 +61,34 @@ C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-wi
 C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\ref\GUItar_HerOE.dll
 C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.pdb
 C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.genruntimeconfig.cache
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.exe
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.deps.json
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.runtimeconfig.json
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.runtimeconfig.dev.json
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.dll
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\ref\GUItar_HerOE.dll
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.pdb
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Toolkit.Mvvm.dll
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\Game.g.cs
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\Levels.g.cs
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\App.g.cs
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_MarkupCompile.cache
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_MarkupCompile.lref
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\Game.baml
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\Levels.baml
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\MainWindow.baml
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.g.resources
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.GeneratedMSBuildEditorConfig.editorconfig
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.AssemblyInfoInputs.cache
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.AssemblyInfo.cs
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.CoreCompileInputs.cache
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.dll
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\ref\GUItar_HerOE.dll
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.pdb
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.genruntimeconfig.cache

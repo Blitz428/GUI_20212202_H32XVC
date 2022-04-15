@@ -2,6 +2,7 @@
 using GUItar_HerOE.Service;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Toolkit.Mvvm.DependencyInjection;
+using Microsoft.Toolkit.Mvvm.Messaging;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -24,6 +25,7 @@ namespace GUItar_HerOE
                 .AddSingleton<IGameLogic, GameLogic>()
                 .AddSingleton<IOpenGameWindowService, OpenGameWindowService>()
                 .AddSingleton<IOpenLevelsWindowService, OpenLevelsWindowService>()
+                .AddSingleton<IMessenger>(WeakReferenceMessenger.Default)
                 .BuildServiceProvider());
         }
     }
