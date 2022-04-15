@@ -27,7 +27,12 @@ namespace GUItar_HerOE
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Place of help text", "Help", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show(" - The point of the game is to score as many points as possible during a song.\n" +
+                " - Once we have reached the right score we can advance to the next level.\n" +
+                " - During the game there are circles in 4 columns that have to be pressed at the given place, then the point is awarded for it, if you press the button in the wrong place, a point is deducted.\n" +
+                "   The GUItarHerOE team wishes you a good game!", 
+                "Help", MessageBoxButton.OK, MessageBoxImage.None);
+
         }
     }
 }
