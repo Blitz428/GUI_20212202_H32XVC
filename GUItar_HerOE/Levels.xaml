@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUItar_HerOE"
         mc:Ignorable="d"
-        Title="Levels" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Levels" Height="450" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Grid>
-        <Button Content="Back" Click="Button_Click"></Button>
+        <WrapPanel x:Name="levelsWrap" HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+        </WrapPanel>
     </Grid>
 </Window>
