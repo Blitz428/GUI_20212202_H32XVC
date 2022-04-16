@@ -45,12 +45,14 @@ namespace GUItar_HerOE
                 button.Tag = "button_" + i;
                 button.Margin = new Thickness(10);
                 button.Padding = new Thickness(10);
-                button.Background = new SolidColorBrush(Color.FromArgb(70,205,130,202));
                 button.Width = (this.ActualWidth / 3)-20;
                 button.Height = (this.ActualHeight / 4.8)-20;
-                button.Content =  (i+1) +". level";
+                button.Content = "Level "+(i+1) +".";
+                button.Background = new SolidColorBrush(Color.FromArgb(70, 205, 20, 202));
                 button.Foreground = new SolidColorBrush(Color.FromRgb(247, 236, 83));
                 button.BorderBrush = new SolidColorBrush(Color.FromRgb(247, 236, 83));
+                button.FontWeight = FontWeights.Bold;
+                button.FontSize = 20;
                 levelsWrap.Children.Add(button);
             }
 
@@ -63,9 +65,11 @@ namespace GUItar_HerOE
             button_menu.Height = (this.ActualHeight / 4.8)-20;
             button_menu.Content = "Menu";
             button_menu.Click += Button_Click;
-            button_menu.Foreground = Brushes.Purple;
-            button_menu.Background = new SolidColorBrush(Color.FromRgb(247, 236, 83));
-            button_menu.BorderBrush = Brushes.Purple;
+            button_menu.Foreground = new SolidColorBrush(Color.FromRgb(205, 130, 202));
+            button_menu.Background = new SolidColorBrush(Color.FromArgb(70,247, 236, 83));
+            button_menu.BorderBrush = new SolidColorBrush(Color.FromRgb(205, 130, 202));
+            button_menu.FontWeight = FontWeights.Bold;
+            button_menu.FontSize = 20;
             levelsWrap.Children.Add(button_menu);
 
         }

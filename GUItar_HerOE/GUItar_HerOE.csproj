@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="dj.jpg" />
     <None Remove="menu.jpg" />
   </ItemGroup>
 
@@ -21,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="dj.jpg" />
     <Resource Include="menu.jpg" />
   </ItemGroup>
 

@@ -40,7 +40,6 @@ C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-wi
 C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Toolkit.Mvvm.dll
 C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache
 C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\Game.g.cs
 C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\Levels.g.cs
 C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\MainWindow.g.cs

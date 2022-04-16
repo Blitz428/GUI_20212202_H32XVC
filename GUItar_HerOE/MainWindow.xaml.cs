@@ -25,7 +25,7 @@ namespace GUItar_HerOE
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Help_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show(" - The point of the game is to score as many points as possible during a song.\n" +
                 " - Once we have reached the right score we can advance to the next level.\n" +
@@ -34,5 +34,11 @@ namespace GUItar_HerOE
                 "Help", MessageBoxButton.OK, MessageBoxImage.None);
 
         }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }

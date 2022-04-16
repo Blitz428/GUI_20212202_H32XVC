@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj": {}
+    "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj": {
+    "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+        "projectUniqueName": "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
         "projectName": "GUItar_HerOE",
-        "projectPath": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+        "projectPath": "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
         "packagesPath": "C:\\Users\\szege\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\obj\\",
+        "outputPath": "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\szege\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,10 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUItar_HerOE"
         mc:Ignorable="d"
-        Title="Levels" Height="450" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Background="Black">
+        Title="Levels" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  Loaded="Window_Loaded">
+    <Window.Background>
+        <ImageBrush ImageSource="/dj.jpg"/>
+    </Window.Background>
     <Grid>
-        <WrapPanel x:Name="levelsWrap" HorizontalAlignment="Center" VerticalAlignment="Center">
-            
+        <WrapPanel x:Name="levelsWrap" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Margin="0,0,0,0">
+
         </WrapPanel>
     </Grid>
 </Window>
