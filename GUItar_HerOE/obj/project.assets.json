@@ -163,19 +163,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\": {}
+    "C:\\Users\\szege\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\..Iskola\\..Óbudai egyetem\\.2021 - 22 tanév 6. félév\\Szoftver 4\\.Játék\\Git mappa\\GUItar_HerOE\\GUItar_HerOE.csproj",
+      "projectUniqueName": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
       "projectName": "GUItar_HerOE",
-      "projectPath": "D:\\..Iskola\\..Óbudai egyetem\\.2021 - 22 tanév 6. félév\\Szoftver 4\\.Játék\\Git mappa\\GUItar_HerOE\\GUItar_HerOE.csproj",
-      "packagesPath": "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\",
-      "outputPath": "D:\\..Iskola\\..Óbudai egyetem\\.2021 - 22 tanév 6. félév\\Szoftver 4\\.Játék\\Git mappa\\GUItar_HerOE\\obj\\",
+      "projectPath": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+      "packagesPath": "C:\\Users\\szege\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Hegedűs Bence\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\szege\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -183,8 +188,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/orchardcore-preview/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0-windows7.0": {
@@ -229,7 +233,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -35,6 +35,8 @@ namespace GUItar_HerOE
             this.Close();
         }
 
+
+       
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             for (int i = 0; i < 7; i++)
@@ -43,10 +45,12 @@ namespace GUItar_HerOE
                 button.Tag = "button_" + i;
                 button.Margin = new Thickness(10);
                 button.Padding = new Thickness(10);
-                button.Background = Brushes.LightBlue;
+                button.Background = new SolidColorBrush(Color.FromArgb(70,205,130,202));
                 button.Width = (this.ActualWidth / 3)-20;
                 button.Height = (this.ActualHeight / 4.8)-20;
                 button.Content =  (i+1) +". level";
+                button.Foreground = new SolidColorBrush(Color.FromRgb(247, 236, 83));
+                button.BorderBrush = new SolidColorBrush(Color.FromRgb(247, 236, 83));
                 levelsWrap.Children.Add(button);
             }
 
@@ -59,6 +63,9 @@ namespace GUItar_HerOE
             button_menu.Height = (this.ActualHeight / 4.8)-20;
             button_menu.Content = "Menu";
             button_menu.Click += Button_Click;
+            button_menu.Foreground = Brushes.Purple;
+            button_menu.Background = new SolidColorBrush(Color.FromRgb(247, 236, 83));
+            button_menu.BorderBrush = Brushes.Purple;
             levelsWrap.Children.Add(button_menu);
 
         }
