@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GUItar_HerOE"
   ],
-  "SelectedNode": "\\GUItar_HerOE.sln",
+  "SelectedNode": "\\GUItar_HerOE\\Levels.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

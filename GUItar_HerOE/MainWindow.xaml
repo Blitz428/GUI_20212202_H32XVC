@@ -26,20 +26,20 @@
             <ColumnDefinition Width="10*"/>
 
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="1">
+        <StackPanel Grid.Column="1" >
             <Label Foreground="White" Content="GUItar HerOE" FontWeight="Bold" FontSize="50" Padding="20" HorizontalAlignment="Center" FontFamily="Cascadia Code"/>
 
-            <Button  Content="New Game" FontSize="25" Command="{Binding OpenGameWindow}" Padding="15" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" />
+            <Button  Content="New Game" FontSize="25" Command="{Binding OpenGameWindow}" Padding="15" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Cascadia Code"/>
             <Label Padding="4" Margin="4"></Label>
-            <Button Content="Levels" FontSize="20" Command="{Binding OpenLevelsWindow}" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055"/>
+            <Button Content="Levels" FontSize="20" Command="{Binding OpenLevelsWindow}" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Cascadia Code"/>
             <Label Padding="3" ></Label>
-           <Button Content="Select Song" FontSize="20" Command="{Binding OpenFileBrowser}" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055"/>
+            <Button Content="Select Song" FontSize="20" Command="{Binding OpenFileBrowser}" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Cascadia Code"/>
             <Label Padding="3"></Label>
-            <Button Content="Exit game" FontSize="20" Click="Exit_Click" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" />
+            <Button Content="Exit game" FontSize="20" Click="Exit_Click" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Cascadia Code" />
         </StackPanel>
-        <Label Foreground="White" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom">Version: V0.3</Label>
-        <Label Foreground="White" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom">Created by: Hegedűs Bence, Turcsányi Patrick, Szegedi Tamás</Label>
-        <Button Grid.Row="2" Grid.Column="2" Margin="5" Click="Help_Click" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" Content="Help"></Button>
-        <Button Grid.Row="1" Grid.Column="2" Margin="5" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" Content="{Binding IsUnlock}" ContentStringFormat="Unlock: {0}" Command="{Binding UnlockLevels}"></Button>
+        <Label Foreground="White" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Cascadia Code" >Version: V0.5</Label>
+        <Label Foreground="White" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Cascadia Code">Created by: Hegedűs Bence, Turcsányi Patrick, Szegedi Tamás</Label>
+        <Button Grid.Row="2" Grid.Column="2" Margin="5" Click="Help_Click" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" Content="Help" FontFamily="Cascadia Code"></Button>
+        <Button Grid.Row="1" Grid.Column="2" Margin="5" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" Content="{Binding IsUnlock}" ContentStringFormat="Unlock: {0}" Command="{Binding UnlockLevels}" FontFamily="Cascadia Code"></Button>
     </Grid>
 </Window>

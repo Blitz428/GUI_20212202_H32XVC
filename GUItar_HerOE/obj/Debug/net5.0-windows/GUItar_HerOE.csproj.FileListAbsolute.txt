@@ -91,3 +91,4 @@ D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\G
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\ref\GUItar_HerOE.dll
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.pdb
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.genruntimeconfig.cache
+C:\Users\szege\source\repos\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache

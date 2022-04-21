@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HWphMlCyuPzb/RMJHpgzSrM74qw3ppqACfHxO1hkEjA9iebYz8P40DOTBLJiw7ucPcwHHueqx2XGzZ+uZgZ8hg==",
+  "dgSpecHash": "efHHsJBpiE05YgXatXvuCqYPk51xwBIduFLFvG/taYIkNu6V9umh/z2rKF0gAEChZkmuJU03xIDvJRlb6zpcgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+  "projectFilePath": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\szege\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\szege\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

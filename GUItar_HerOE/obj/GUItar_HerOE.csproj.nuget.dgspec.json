@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj": {}
+    "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj": {
+    "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+        "projectUniqueName": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
         "projectName": "GUItar_HerOE",
-        "projectPath": "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+        "projectPath": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
         "packagesPath": "C:\\Users\\szege\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\szege\\Source\\Repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\obj\\",
+        "outputPath": "C:\\Users\\szege\\source\\repos\\GUI_20212202_H32XVC\\GUItar_HerOE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\szege\\AppData\\Roaming\\NuGet\\NuGet.Config",

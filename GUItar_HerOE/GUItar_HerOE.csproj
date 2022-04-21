@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <None Remove="dj.jpg" />
+    <None Remove="gamebackground.png" />
     <None Remove="menu.jpg" />
   </ItemGroup>
 
@@ -23,6 +24,7 @@
 
   <ItemGroup>
     <Resource Include="dj.jpg" />
+    <Resource Include="gamebackground.png" />
     <Resource Include="menu.jpg" />
   </ItemGroup>
 
