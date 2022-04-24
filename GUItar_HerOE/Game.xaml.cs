@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUItar_HerOE.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,7 +27,12 @@ namespace GUItar_HerOE
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            this.Close();         
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            (DataContext as GameWindowViewModel).Closing(9);
         }
     }
 }

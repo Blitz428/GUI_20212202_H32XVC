@@ -20,6 +20,7 @@ namespace GUItar_HerOE.ViewModels
         public ICommand CustomMusicLoading { get; set; }
         public ICommand UnlockLevels { get; set; }
         private IMenuLogic logic;
+
         
         private bool isUnlock;
 

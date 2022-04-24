@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:GUItar_HerOE"
         xmlns:vm="clr-namespace:GUItar_HerOE.ViewModels"
         mc:Ignorable="d"
-        Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
     <Window.Background>
         <ImageBrush ImageSource="/gamebackground.png" TileMode="Tile"/>
     </Window.Background>

@@ -40,5 +40,15 @@ namespace GUItar_HerOE.ViewModels
         {
             logic.MusicStart(id);
         }
+
+        public void MusicStop(int id)
+        {
+            logic.MusicStop(id);
+        }
+
+        public void Closing(int id)
+        {
+            logic.Closing(id);
+        }
     }
 }

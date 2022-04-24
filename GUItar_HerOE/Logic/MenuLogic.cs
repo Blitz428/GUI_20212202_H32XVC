@@ -51,13 +51,12 @@ namespace GUItar_HerOE.Logic
             if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 var splittedSongPath = openFileDialog.FileName.Split("\\");
-                string fileName = splittedSongPath[splittedSongPath.Length - 1];
-                cusctomMusicName = fileName;
+                cusctomMusicName = splittedSongPath[splittedSongPath.Length - 1];
               
                 string sourcePath = openFileDialog.FileName;
                 string targetPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Songs");
 
-                string destFile = System.IO.Path.Combine(targetPath, "z_"+fileName);
+                string destFile = System.IO.Path.Combine(targetPath, "z_"+ cusctomMusicName);
 
                 System.IO.File.Copy(sourcePath, destFile, true);
             }
@@ -71,7 +70,7 @@ namespace GUItar_HerOE.Logic
             if (deletePath != null)
             {
                 System.IO.File.Delete(deletePath);
-            }            
+            }
         }
     
         public bool UnlockLevels()
