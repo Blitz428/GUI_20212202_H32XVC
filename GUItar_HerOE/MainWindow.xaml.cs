@@ -1,4 +1,5 @@
 ﻿using GUItar_HerOE.Logic;
+using GUItar_HerOE.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,9 +27,7 @@ namespace GUItar_HerOE
         public MainWindow()
         {
             InitializeComponent();
-            MusicPlayer musicPlayer = new MusicPlayer();
-            musicPlayer.SelectSong(8);
-            musicPlayer.Play();
+            (this.DataContext as MainWindowViewModel).MenuMusicStart();
         }
 
         private void Help_Click(object sender, RoutedEventArgs e)
@@ -41,8 +40,13 @@ namespace GUItar_HerOE
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
-        {
+        {        
             this.Close();
+        }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            (this.DataContext as MainWindowViewModel).CustomMusicDelete();
         }
     }
 }

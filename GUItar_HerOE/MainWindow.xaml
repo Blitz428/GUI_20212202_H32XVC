@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:GUItar_HerOE"
         xmlns:vm="clr-namespace:GUItar_HerOE.ViewModels"
         mc:Ignorable="d"
-        Title="GUItar HerOE" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" >
+        Title="GUItar HerOE" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing" >
     <Window.Background>
         <ImageBrush ImageSource="/menu.jpg"/>
     </Window.Background>
@@ -33,7 +33,7 @@
             <Label Padding="4" Margin="4"></Label>
             <Button Content="Levels" FontSize="20" Command="{Binding OpenLevelsWindow}" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Cascadia Code"/>
             <Label Padding="3" ></Label>
-            <Button Content="Select Song" FontSize="20" Command="{Binding OpenFileBrowser}" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Cascadia Code"/>
+            <Button Content="Select Song" FontSize="20" Command="{Binding CustomMusicLoading}" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Cascadia Code"/>
             <Label Padding="3"></Label>
             <Button Content="Exit game" FontSize="20" Click="Exit_Click" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Cascadia Code" />
         </StackPanel>

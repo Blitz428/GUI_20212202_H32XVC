@@ -2,6 +2,7 @@
 using Microsoft.Toolkit.Mvvm.Messaging;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,8 +15,9 @@ namespace GUItar_HerOE.Logic
         private IOpenGameWindowService openGameWindow;
         private IOpenLevelsWindowService openLevelsWindowService;
         private IMessenger messenger;
-        private string songPath;
+        private string cusctomMusicName;
         public bool isUnlock {get; set;}
+        private MusicPlayer musicPlayer;
 
         public MenuLogic(IMessenger messenger, IOpenGameWindowService openGameWindow, IOpenLevelsWindowService openLevelsWindowService)
         {
@@ -35,20 +37,55 @@ namespace GUItar_HerOE.Logic
             openGameWindow.Open();
         }
 
-        public void OpenFileBrowser()
+        public void OpenCustomGameWindow()
         {
-            FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
-            if (folderBrowserDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-            {
-                songPath = folderBrowserDialog.SelectedPath;
-            }
+            musicPlayer.Stop();
+            musicPlayer.SelectSong(9);
+            musicPlayer.Play();
+            openGameWindow.Open();
         }
 
+        public void CustomMusicLoading()
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                var splittedSongPath = openFileDialog.FileName.Split("\\");
+                string fileName = splittedSongPath[splittedSongPath.Length - 1];
+                cusctomMusicName = fileName;
+              
+                string sourcePath = openFileDialog.FileName;
+                string targetPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Songs");
+
+                string destFile = System.IO.Path.Combine(targetPath, "z_"+fileName);
+
+                System.IO.File.Copy(sourcePath, destFile, true);
+            }
+            OpenCustomGameWindow();
+        }
+
+        public void CustomMusicDelete()
+        {
+            string deletePath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, $"GUItar_HerOE\\Songs\\z_{cusctomMusicName}");
+
+            if (deletePath != null)
+            {
+                System.IO.File.Delete(deletePath);
+            }            
+        }
+    
         public bool UnlockLevels()
         {
             isUnlock = !isUnlock;
             messenger.Send("Unlock changed!", "MenuInfo");
             return isUnlock;
+        }
+
+        public void MenuMusicStart()
+        {
+            musicPlayer = new MusicPlayer();
+            musicPlayer.SelectSong(8);
+            musicPlayer.Play();
         }
     }
 }

@@ -11,7 +11,9 @@ namespace GUItar_HerOE.Logic
         public bool isUnlock { get; set; }
         public void OpenLevelsWindow();
         public void OpenGameWindow();
-        public void OpenFileBrowser();
+        public void CustomMusicLoading();
+        public void CustomMusicDelete();
         public bool UnlockLevels();
+        public void MenuMusicStart();
     }
 }

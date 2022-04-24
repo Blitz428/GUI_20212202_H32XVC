@@ -13,14 +13,41 @@
     <None Remove="menu.jpg" />
     <None Remove="Songs\1_A gondolatom már.wav" />
     <None Remove="Songs\2_50 cent nigga cat.wav" />
+    <None Remove="Songs\3_Titkos üzenet.wav" />
+    <None Remove="Songs\4_Never gonna give you up.wav" />
+    <None Remove="Songs\5_Darude sandstorm.wav" />
+    <None Remove="Songs\6_You spin me round.wav" />
+    <None Remove="Songs\7_Heyyeyaa.wav" />
+    <None Remove="Songs\fail.wav" />
     <None Remove="Songs\menu.wav" />
+    <None Remove="Songs\z_%24witchblade x Shade Apollo - Undead Smile.wav" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Songs\1_A gondolatom már.wav" />
-    <EmbeddedResource Include="Songs\menu.wav">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <Content Include="Songs\1_A gondolatom már.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Songs\3_Titkos üzenet.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Songs\4_Never gonna give you up.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Songs\5_Darude sandstorm.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Songs\6_You spin me round.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Songs\7_Heyyeyaa.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Songs\fail.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Songs\menu.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -36,7 +63,9 @@
     <Resource Include="dj.jpg" />
     <Resource Include="gamebackground.png" />
     <Resource Include="menu.jpg" />
-    <EmbeddedResource Include="Songs\2_50 cent nigga cat.wav" />
+    <Content Include="Songs\2_50 cent nigga cat.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

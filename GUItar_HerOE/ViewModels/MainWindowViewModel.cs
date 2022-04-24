@@ -17,7 +17,7 @@ namespace GUItar_HerOE.ViewModels
     {
         public ICommand OpenLevelsWindow { get; set; }
         public ICommand OpenGameWindow { get; set; }
-        public ICommand OpenFileBrowser { get; set; }
+        public ICommand CustomMusicLoading { get; set; }
         public ICommand UnlockLevels { get; set; }
         private IMenuLogic logic;
         
@@ -55,13 +55,13 @@ namespace GUItar_HerOE.ViewModels
                 () => logic.OpenGameWindow()
                 );
 
-            OpenFileBrowser = new RelayCommand(
-               () => logic.OpenFileBrowser()
+            CustomMusicLoading = new RelayCommand(
+               () => logic.CustomMusicLoading()
                );
 
             UnlockLevels = new RelayCommand(
                () => logic.UnlockLevels()
-               );
+               );         
 
             Messenger.Register<MainWindowViewModel, string, string>(this, "MenuInfo", (recepient, msg) =>
             {
@@ -69,6 +69,14 @@ namespace GUItar_HerOE.ViewModels
             });
         }
 
+        public void MenuMusicStart()
+        {
+            logic.MenuMusicStart();
+        }
 
+        public void CustomMusicDelete()
+        {
+            logic.CustomMusicDelete();
+        }
     }
 }

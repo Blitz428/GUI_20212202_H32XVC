@@ -8,5 +8,13 @@ namespace GUItar_HerOE.Logic
 {
     public class GameLogic : IGameLogic
     {
+        private MusicPlayer musicPlayer;
+
+        public void MusicStart(int id)
+        {
+            musicPlayer = new MusicPlayer();
+            musicPlayer.SelectSong(id);
+            musicPlayer.Play();
+        }
     }
 }

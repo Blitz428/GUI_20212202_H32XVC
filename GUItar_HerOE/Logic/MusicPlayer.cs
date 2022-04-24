@@ -13,28 +13,46 @@ namespace GUItar_HerOE.Logic
     {
         private SoundPlayer soundPlayer;
         private List<string> songs;
+        private string songFolderPath;
 
         public MusicPlayer()
         {
             songs = new List<string>();
-            string startupPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Songs\");
-            var files = Directory.GetFiles(startupPath);
-            
-            foreach (var file in files)
+            songFolderPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Songs\");
+            var files = Directory.GetFiles(songFolderPath);
+           
+            foreach (var current_file in files)
             {
-                if (file.ToString().Contains(".wav"))
+                if (current_file.ToString().Contains(".wav"))
                 {
-                    songs.Add(file.Split(startupPath)[1]);
+                    songs.Add(current_file.Split(songFolderPath)[1]);
+                }
+            }
+        }
+
+        public void UpdateList()
+        {          
+            var files = Directory.GetFiles(songFolderPath);
+
+            foreach (var current_file in files)
+            {
+                if (current_file.ToString().Contains(".wav"))
+                {
+                    if (!songs.Contains(current_file.Split(songFolderPath)[1]))
+                    {
+                        songs.Add(current_file.Split(songFolderPath)[1]);
+                    }                   
                 }
             }
         }
 
         public void SelectSong(int id)
         {
+            UpdateList();
             if (songs.Count() > id && id >= 0)
-            {
-                soundPlayer = new System.Media.SoundPlayer(Assembly.LoadFrom("GUItar_HerOE").GetManifestResourceStream($"GUItar_HerOE.Songs.{songs[id]}"));
-            }              
+            {              
+                soundPlayer = new System.Media.SoundPlayer($"{songFolderPath}{songs[id]}");
+            }
         }
             
         public void Play()
@@ -51,6 +69,15 @@ namespace GUItar_HerOE.Logic
             {
                 soundPlayer.Stop();
             }
+        }
+
+        public int SongTimeLenght()
+        {
+            if (soundPlayer != null)
+            {
+                return soundPlayer.LoadTimeout;
+            }
+            return 0;
         }
     }
 }

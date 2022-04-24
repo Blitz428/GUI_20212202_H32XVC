@@ -8,5 +8,6 @@ namespace GUItar_HerOE.Logic
 {
     public interface IGameLogic
     {
+        public void MusicStart(int id);
     }
 }
