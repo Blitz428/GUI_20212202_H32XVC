@@ -11,6 +11,16 @@
     <None Remove="dj.jpg" />
     <None Remove="gamebackground.png" />
     <None Remove="menu.jpg" />
+    <None Remove="Songs\1_A gondolatom már.wav" />
+    <None Remove="Songs\2_50 cent nigga cat.wav" />
+    <None Remove="Songs\menu.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Songs\1_A gondolatom már.wav" />
+    <EmbeddedResource Include="Songs\menu.wav">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +36,7 @@
     <Resource Include="dj.jpg" />
     <Resource Include="gamebackground.png" />
     <Resource Include="menu.jpg" />
+    <EmbeddedResource Include="Songs\2_50 cent nigga cat.wav" />
   </ItemGroup>
 
 </Project>

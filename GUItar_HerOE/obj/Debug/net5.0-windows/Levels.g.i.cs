@@ -62,7 +62,7 @@ namespace GUItar_HerOE {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GUItar_HerOE;V1.0.0.0;component/levels.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GUItar_HerOE;component/levels.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Levels.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

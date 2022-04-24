@@ -1,7 +1,10 @@
-﻿using System;
+﻿using GUItar_HerOE.Logic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -23,6 +26,9 @@ namespace GUItar_HerOE
         public MainWindow()
         {
             InitializeComponent();
+            MusicPlayer musicPlayer = new MusicPlayer();
+            musicPlayer.SelectSong(8);
+            musicPlayer.Play();
         }
 
         private void Help_Click(object sender, RoutedEventArgs e)
@@ -32,13 +38,11 @@ namespace GUItar_HerOE
                 " - During the game there are circles in 4 columns that have to be pressed at the given place, then the point is awarded for it, if you press the button in the wrong place, a point is deducted.\n" +
                 "   The GUItarHerOE team wishes you a good game!", 
                 "Help", MessageBoxButton.OK, MessageBoxImage.None);
-
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
-
     }
 }
