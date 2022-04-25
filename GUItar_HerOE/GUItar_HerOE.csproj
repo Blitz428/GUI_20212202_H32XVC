@@ -10,7 +10,11 @@
   <ItemGroup>
     <None Remove="dj.jpg" />
     <None Remove="gamebackground.png" />
+    <None Remove="Images\GameImage\green.png" />
+    <None Remove="Images\GameImage\red.png" />
+    <None Remove="Images\GameImage\yellow.png" />
     <None Remove="menu.jpg" />
+    <None Remove="orange.png" />
     <None Remove="Songs\1_A gondolatom már.wav" />
     <None Remove="Songs\2_50 cent nigga cat.wav" />
     <None Remove="Songs\3_Titkos üzenet.wav" />
@@ -24,6 +28,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Images\GameImage\green.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\GameImage\orange.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\GameImage\yellow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Songs\1_A gondolatom már.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -60,9 +73,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="dj.jpg" />
-    <Resource Include="gamebackground.png" />
-    <Resource Include="menu.jpg" />
+    <Resource Include="Images\dj.jpg" />
+    <Resource Include="Images\gamebackground.png" />
+    <Content Include="Images\GameImage\red.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Images\menu.jpg" />
     <Content Include="Songs\2_50 cent nigga cat.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

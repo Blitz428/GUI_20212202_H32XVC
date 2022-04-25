@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Levels" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"  Loaded="Window_Loaded">
     <Window.Background>
-        <ImageBrush ImageSource="/dj.jpg"/>
+        <ImageBrush ImageSource="Images/dj.jpg"/>
     </Window.Background>
     <Grid>
         <WrapPanel x:Name="levelsWrap" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Margin="0,0,0,0" >

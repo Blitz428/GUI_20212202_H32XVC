@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="GUItar HerOE" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing" >
     <Window.Background>
-        <ImageBrush ImageSource="/menu.jpg"/>
+        <ImageBrush ImageSource="Images/menu.jpg"/>
     </Window.Background>
     <Window.DataContext>
         <vm:MainWindowViewModel></vm:MainWindowViewModel>

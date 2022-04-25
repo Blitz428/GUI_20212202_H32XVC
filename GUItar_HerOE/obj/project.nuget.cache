@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "DyEpwTILnqKdB5AyCZw/WNdJMDKEV7mnP6KS6RuU3I8nUy2p0EuDtM+j9Ut3lVheqvgnZ9mF4JCnvr5l2+fuQA==",
+  "dgSpecHash": "uBO5QhkM6xnvSe6MpWkQd3qGXGfrReZVhakScUWg1ymtt0RuQQxvhAN/97DLU/yTmdv+h+oqlyDNRF71TKm4YQ==",
   "success": true,
-  "projectFilePath": "D:\\OneDrive - Óbudai egyetem\\6. Félév\\SZTGUI\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+  "projectFilePath": "D:\\..Iskola\\..Óbudai egyetem\\.2021 - 22 tanév 6. félév\\Szoftver 4\\.Játék\\Git mappa\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\szege\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-    "C:\\Users\\szege\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\szege\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
-    "C:\\Users\\szege\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

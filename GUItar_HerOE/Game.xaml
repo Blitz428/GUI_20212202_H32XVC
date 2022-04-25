@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
     <Window.Background>
-        <ImageBrush ImageSource="/gamebackground.png" TileMode="Tile"/>
+        <ImageBrush ImageSource="Images/gamebackground.png" TileMode="Tile"/>
     </Window.Background>
     <Window.DataContext>
         <vm:GameWindowViewModel></vm:GameWindowViewModel>
