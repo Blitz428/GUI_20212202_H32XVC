@@ -103,7 +103,6 @@ D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\G
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Toolkit.Mvvm.dll
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
-D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\Game.g.cs
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\Levels.g.cs
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\MainWindow.g.cs
@@ -179,3 +178,4 @@ D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\G
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Images\GameImage\orange.png
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Images\GameImage\yellow.png
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Images\GameImage\red.png
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache

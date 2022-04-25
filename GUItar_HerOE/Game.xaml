@@ -4,7 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUItar_HerOE"
-        xmlns:vm="clr-namespace:GUItar_HerOE.ViewModels"
+        xmlns:vm="clr-namespace:GUItar_HerOE.ViewModels" 
+        xmlns:renderer="clr-namespace:GUItar_HerOE.Renderer"
         mc:Ignorable="d"
         Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
     <Window.Background>
@@ -32,18 +33,21 @@
         <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,84,0" Grid.RowSpan="2">
             <Label Content="" ContentStringFormat="Music name: {0}" FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" />
         </StackPanel>
-        <StackPanel Grid.Column="2" Grid.RowSpan="3" Grid.ColumnSpan="2" Margin="0,0,84,0">
-
+        <StackPanel Grid.Column="1" Grid.Row="0">
+            <renderer:GreenColumn x:Name="GreenColumnRenderer"/>
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <renderer:OrangeColumn x:Name="OrangeColumnRenderer" />
         </StackPanel>
         <Button Grid.Column="1" Grid.Row="2" Content="↑" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B20DE708"  BorderBrush="#FFECF055" FontFamily="Consolas"/>
 
         <StackPanel Grid.Column="3" Grid.RowSpan="3">
-
+            <renderer:YellowColumn x:Name="YellowColumnRenderer" />
         </StackPanel>
         <Button Grid.Column="2" Grid.Row="2" Content="←" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B2FFAF02"  BorderBrush="#FFECF055" FontFamily="Consolas"/>
 
-        <StackPanel Grid.Column="4" Grid.RowSpan="3" Margin="5,5,5,5">
-
+        <StackPanel Grid.Column="4" Grid.RowSpan="3" >
+            <renderer:RedColumn x:Name="RedColumnRenderer" />
         </StackPanel>
         <Button Grid.Column="3" Grid.Row="2" Content="↓" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B2F4FF00"  BorderBrush="#FFECF055" FontFamily="Consolas"/>
 
@@ -63,7 +67,5 @@
         <Rectangle Grid.Column="2" HorizontalAlignment="Center" Height="372" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
         <Rectangle Grid.Column="3" HorizontalAlignment="Center" Height="372" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
         <Rectangle Grid.Column="4" HorizontalAlignment="Center" Height="372" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
-
-
     </Grid>
 </Window>
