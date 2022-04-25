@@ -53,7 +53,7 @@ namespace GUItar_HerOE
                 button.BorderBrush = new SolidColorBrush(Color.FromRgb(247, 236, 83));
                 button.FontWeight = FontWeights.Bold;
                 button.FontSize = 20;
-                button.FontFamily = new FontFamily("Cascadia Code");
+                button.FontFamily = new FontFamily("Consolas");
                 levelsWrap.Children.Add(button);
             }
 
@@ -71,7 +71,7 @@ namespace GUItar_HerOE
             button_menu.BorderBrush = new SolidColorBrush(Color.FromRgb(205, 130, 202));
             button_menu.FontWeight = FontWeights.Bold;
             button_menu.FontSize = 20;
-            button_menu.FontFamily = new FontFamily("Cascadia Code");
+            button_menu.FontFamily = new FontFamily("Consolas");
             levelsWrap.Children.Add(button_menu);
 
         }

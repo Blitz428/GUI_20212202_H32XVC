@@ -133,3 +133,45 @@ D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\G
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\menu.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\2_50 cent nigga cat.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_Content.g.cs
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.exe
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\1_A gondolatom már.wav
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\3_Titkos üzenet.wav
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\4_Never gonna give you up.wav
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\5_Darude sandstorm.wav
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\6_You spin me round.wav
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\7_Heyyeyaa.wav
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\fail.wav
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\menu.wav
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\2_50 cent nigga cat.wav
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.deps.json
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.runtimeconfig.json
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.runtimeconfig.dev.json
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.dll
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\ref\GUItar_HerOE.dll
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.pdb
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Toolkit.Mvvm.dll
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\Game.g.cs
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\Levels.g.cs
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\App.g.cs
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_Content.g.cs
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_MarkupCompile.cache
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_MarkupCompile.lref
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\Game.baml
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\Levels.baml
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\MainWindow.baml
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.g.resources
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.AssemblyInfoInputs.cache
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.AssemblyInfo.cs
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.CoreCompileInputs.cache
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.CopyComplete
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.dll
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\ref\GUItar_HerOE.dll
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.pdb
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.genruntimeconfig.cache
