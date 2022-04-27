@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:GUItar_HerOE"
         xmlns:vm="clr-namespace:GUItar_HerOE.ViewModels" 
         xmlns:renderer="clr-namespace:GUItar_HerOE.Renderer"
+        xmlns:controller="clr-namespace:GUItar_HerOE.Controller"
         mc:Ignorable="d"
         Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
     <Window.Background>
@@ -34,20 +35,20 @@
             <Label Content="" ContentStringFormat="Music name: {0}" FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" />
         </StackPanel>
         <StackPanel Grid.Column="1" Grid.Row="0">
-            <renderer:GreenColumn x:Name="GreenColumnRenderer"/>
+            <controller:GameController_green></controller:GameController_green>
         </StackPanel>
         <StackPanel Grid.Column="2">
-            <renderer:OrangeColumn x:Name="OrangeColumnRenderer" />
+            <controller:GameController_orange></controller:GameController_orange>
         </StackPanel>
         <Button Grid.Column="1" Grid.Row="2" Content="↑" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B20DE708"  BorderBrush="#FFECF055" FontFamily="Consolas"/>
 
         <StackPanel Grid.Column="3" Grid.RowSpan="3">
-            <renderer:YellowColumn x:Name="YellowColumnRenderer" />
+            <controller:GameController_yellow/>
         </StackPanel>
         <Button Grid.Column="2" Grid.Row="2" Content="←" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B2FFAF02"  BorderBrush="#FFECF055" FontFamily="Consolas"/>
 
         <StackPanel Grid.Column="4" Grid.RowSpan="3" >
-            <renderer:RedColumn x:Name="RedColumnRenderer" />
+            <controller:GameController_red></controller:GameController_red>
         </StackPanel>
         <Button Grid.Column="3" Grid.Row="2" Content="↓" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B2F4FF00"  BorderBrush="#FFECF055" FontFamily="Consolas"/>
 

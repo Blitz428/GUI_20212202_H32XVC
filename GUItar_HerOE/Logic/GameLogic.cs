@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUItar_HerOE.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,12 @@ namespace GUItar_HerOE.Logic
     {
         private MusicPlayer musicPlayer;
         private IMenuLogic menuLogic;
+        private GameModel gameModel;
+
+        public GameLogic(GameModel gameModel)
+        {
+            this.gameModel = gameModel;
+        }
 
         public GameLogic(IMenuLogic menuLogic)
         {
@@ -37,6 +44,22 @@ namespace GUItar_HerOE.Logic
             menuLogic.MenuMusicStart();     
         }
 
+        public void GuitarTick(Guitar guitar)
+        {
+            guitar.Procent += 1;
+            if (guitar.Procent > 372)
+            {
+                guitar.Procent = 0;
+            }
+        }
+
+        public void OneTick()
+        {
+            foreach (Guitar guitar in gameModel.Guitars)
+            {
+                GuitarTick(guitar);
+            }
+        }
 
     }
 }

@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Converter\**" />
+    <EmbeddedResource Remove="Converter\**" />
+    <None Remove="Converter\**" />
+    <Page Remove="Converter\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="dj.jpg" />
     <None Remove="gamebackground.png" />
     <None Remove="Images\GameImage\green.png" />
@@ -61,10 +68,6 @@
     <Content Include="Songs\menu.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Converter\" />
   </ItemGroup>
 
   <ItemGroup>

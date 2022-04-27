@@ -34,6 +34,9 @@ namespace GUItar_HerOE.Logic
 
         public void OpenGameWindow()
         {
+            musicPlayer.Stop();
+            musicPlayer.SelectSong(1);
+            musicPlayer.Play();
             openGameWindow.Open();
         }
 

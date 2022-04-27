@@ -29,22 +29,23 @@ namespace GUItar_HerOE
 
         private void TimersCreateAndSet(double green, double orange, double red, double yellow, double speed)
         {
-            DispatcherTimer dispatcherTimer_green = new DispatcherTimer(DispatcherPriority.Send);
-            dispatcherTimer_green.Interval = TimeSpan.FromSeconds(green / speed);
-            dispatcherTimer_green.Tick += DispatcherTimer_green_Tick;
-            dispatcherTimer_green.Start();
+            //DispatcherTimer dispatcherTimer_green = new DispatcherTimer(DispatcherPriority.Send);
+            //dispatcherTimer_green.Interval = TimeSpan.FromSeconds(green / speed);
+            //dispatcherTimer_green.Tick += DispatcherTimer_green_Tick;
+            //dispatcherTimer_green.Start();
 
-            DispatcherTimer dispatcherTimer_orange = new DispatcherTimer(DispatcherPriority.Send);
+            //DispatcherTimer dispatcherTimer_orange = new DispatcherTimer(DispatcherPriority.Send);
+            DispatcherTimer dispatcherTimer_orange = new DispatcherTimer();
             dispatcherTimer_orange.Interval = TimeSpan.FromSeconds(orange / speed);
             dispatcherTimer_orange.Tick += DispatcherTimer_orange_Tick;
             dispatcherTimer_orange.Start();
 
-            DispatcherTimer dispatcherTimer_red = new DispatcherTimer(DispatcherPriority.Send);
+            DispatcherTimer dispatcherTimer_red = new DispatcherTimer();
             dispatcherTimer_red.Interval = TimeSpan.FromSeconds(red / speed);
             dispatcherTimer_red.Tick += DispatcherTimer_red_Tick;
             dispatcherTimer_red.Start();
 
-            DispatcherTimer dispatcherTimer_yellow = new DispatcherTimer(DispatcherPriority.Send);
+            DispatcherTimer dispatcherTimer_yellow = new DispatcherTimer();
             dispatcherTimer_yellow.Interval = TimeSpan.FromSeconds(yellow / speed);
             dispatcherTimer_yellow.Tick += DispatcherTimer_yellow_Tick;
             dispatcherTimer_yellow.Start();
@@ -52,23 +53,23 @@ namespace GUItar_HerOE
 
         private void DispatcherTimer_yellow_Tick(object sender, EventArgs e)
         {
-            YellowColumnRenderer.InvalidateVisual();
+            //YellowColumnRenderer.InvalidateVisual();
         }
 
         private void DispatcherTimer_red_Tick(object sender, EventArgs e)
         {
-            RedColumnRenderer.InvalidateVisual();
+            //RedColumnRenderer.InvalidateVisual();
         }
 
         private void DispatcherTimer_orange_Tick(object sender, EventArgs e)
         {
-            OrangeColumnRenderer.InvalidateVisual();
+            //OrangeColumnRenderer.InvalidateVisual();
         }
 
-        private void DispatcherTimer_green_Tick(object sender, EventArgs e)
-        {
-            GreenColumnRenderer.InvalidateVisual();
-        }
+        //private void DispatcherTimer_green_Tick(object sender, EventArgs e)
+        //{
+        //    //GreenColumnRenderer.InvalidateVisual();
+        //}
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
