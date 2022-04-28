@@ -12,14 +12,22 @@ using System.Windows.Threading;
 
 namespace GUItar_HerOE.Controller
 {
-    public class GameController_yellow : FrameworkElement
-    {            
+    public class GameController : FrameworkElement
+    {
         GameLogic gameLogic;
         GameModel gameModel;
-        GameRenderer_yellow gameRenderer;
+        GameRenderer gameRenderer;
         DispatcherTimer mainTimer;
+        private string color;
+        private double timer;
 
-        public GameController_yellow()
+        public void Setup(string color, double timer)
+        {
+            this.color = color;
+            this.timer = timer;
+        }       
+
+        public GameController()
         {
             Loaded += GameControl_Loaded;
         }
@@ -27,12 +35,12 @@ namespace GUItar_HerOE.Controller
         private void GameControl_Loaded(object sender, RoutedEventArgs e)
         {
             gameModel = new GameModel(0, 20);
-            gameLogic = new GameLogic(gameModel);        
-            gameRenderer = new GameRenderer_yellow(gameModel);
+            gameRenderer = new GameRenderer(color, gameModel);
+            gameLogic = new GameLogic(gameModel);
 
             foreach (var guitar in gameModel.Guitars)
             {
-                guitar.Color = "yellow";
+                guitar.Color = color;
                 guitar.Activated = false;
             }
 
@@ -40,7 +48,7 @@ namespace GUItar_HerOE.Controller
             if (win != null)
             {
                 mainTimer = new DispatcherTimer(DispatcherPriority.Send);
-                mainTimer.Interval = TimeSpan.FromSeconds(0.02);
+                mainTimer.Interval = TimeSpan.FromSeconds(timer);
                 mainTimer.Tick += MainTimer_Tick;
                 mainTimer.Start();
             }

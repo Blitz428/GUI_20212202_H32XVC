@@ -1,6 +1,5 @@
 ﻿using GUItar_HerOE.Models;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -11,22 +10,24 @@ using System.Windows.Media.Imaging;
 
 namespace GUItar_HerOE.Renderer
 {
-    public class GameRenderer_green
+    class GameRenderer
     {
         private GameModel model;
-        protected string imagePath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Images\GameImage");
+        private string color;
+        private string imagePath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Images\GameImage");
+
+        public GameRenderer(string color, GameModel model)
+        {
+            this.color = color;
+            this.model = model;
+        }
 
         public Brush GuitarBrush_green
         {
             get
             {
-                return new ImageBrush(new BitmapImage(new Uri(Path.Combine(imagePath, "green.png"), UriKind.RelativeOrAbsolute)));
+                return new ImageBrush(new BitmapImage(new Uri(Path.Combine(imagePath, $"{color}.png"), UriKind.RelativeOrAbsolute)));
             }
-        }
-
-        public GameRenderer_green(GameModel model)
-        {
-            this.model = model;
         }
 
         public void BuildDisplay(DrawingContext drawingContext)

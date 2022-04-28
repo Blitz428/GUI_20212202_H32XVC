@@ -31,37 +31,43 @@
             <ColumnDefinition Width="60*"/>
 
         </Grid.ColumnDefinitions>
+        
         <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,84,0" Grid.RowSpan="2">
             <Label ContentStringFormat="Music name: {0}" Content="{Binding CurrentSong}"  FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" />
         </StackPanel>
-        <StackPanel Grid.Column="1" Grid.Row="0">
-            <controller:GameController_green></controller:GameController_green>
+        
+        <StackPanel x:Name="GreenColumn" Grid.Column="1" Grid.Row="0">
+            <controller:GameController x:Name="GreenController"></controller:GameController>             
         </StackPanel>
-        <StackPanel Grid.Column="2">
-            <controller:GameController_orange></controller:GameController_orange>
+        
+        <StackPanel x:Name="OrangeColumn" Grid.Column="2">
+            <controller:GameController x:Name="OrangeController"></controller:GameController>
         </StackPanel>
+        
         <Button Grid.Column="1" Grid.Row="2" Content="↑" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B20DE708"  BorderBrush="#FFECF055" FontFamily="Consolas" Command="{Binding GuitarContact_green}" Click="Button_Click_1"/>
 
-        <StackPanel Grid.Column="3" Grid.RowSpan="3">
-            <controller:GameController_yellow></controller:GameController_yellow>
+        <StackPanel x:Name="YellowColumn" Grid.Column="3" Grid.RowSpan="3">
+            <controller:GameController x:Name="YellowController"></controller:GameController>
         </StackPanel>
+        
         <Button Grid.Column="2" Grid.Row="2" Content="←" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B2FFAF02"  BorderBrush="#FFECF055" FontFamily="Consolas" Command="{Binding GuitarContact_orange}" Click="Button_Click_2"/>
 
-        <StackPanel Grid.Column="4" Grid.RowSpan="3" >
-            <controller:GameController_red></controller:GameController_red>
+        <StackPanel x:Name="RedColumn" Grid.Column="4" Grid.RowSpan="3" >
+            <controller:GameController x:Name="RedController"></controller:GameController>
         </StackPanel>
+        
         <Button Grid.Column="3" Grid.Row="2" Content="↓" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B2F4FF00"  BorderBrush="#FFECF055" FontFamily="Consolas" Command="{Binding GuitarContact_yellow}" Click="Button_Click_3"/>
-
+        
         <StackPanel Grid.Column="4" Grid.RowSpan="3" Grid.ColumnSpan="2" Margin="84,0,0,0">
-
         </StackPanel>
+        
         <Button Grid.Column="4" Grid.Row="2" Content="→" FontSize="30" FontWeight="Bold" Margin="5,5,5,5" Background="#B2FF0000" BorderBrush="#FFECF055" FontFamily="Consolas" Command="{Binding GuitarContact_red}" Click="Button_Click_4"/>
-
+        
         <StackPanel Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="2" Margin="84,0,0,0" Grid.RowSpan="2">
             <Label ContentStringFormat="Current level: {0}" Content="{Binding CurrentLevel}" FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White"/>
             <Label ContentStringFormat="Points: {0}" Content="{Binding Point}" FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White"/>
-
         </StackPanel>
+        
         <Button Grid.Column="5" Grid.Row="2" Content="Menu" FontSize="25" Click="Button_Click" Margin="10,10,10,10" Background="#FFF7EC53" Foreground=" #B2CD82CA " BorderBrush="#B2CD82CA" FontFamily="Consolas"/>
         <Rectangle Grid.Column="1" HorizontalAlignment="Center" Height="52" Fill="#B2008000" VerticalAlignment="Center" Width="336" Grid.ColumnSpan="4" Grid.Row="1"/>
         <Rectangle Grid.Column="1" HorizontalAlignment="Center" Height="372" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>

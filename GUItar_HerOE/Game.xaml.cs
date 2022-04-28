@@ -21,10 +21,15 @@ namespace GUItar_HerOE
     /// </summary>
     public partial class Game : Window
     {
+        private Random r;
         public Game()
         {
             InitializeComponent();
-            
+            r = new Random();
+            GreenController.Setup("green", (double)r.Next(1, 20) / 1000);
+            OrangeController.Setup("orange", (double)r.Next(1, 20) / 1000);
+            YellowController.Setup("yellow", (double)r.Next(1, 20) / 1000);
+            RedController.Setup("red", (double)r.Next(1, 20) / 1000);
         }        
 
         private void Button_Click(object sender, RoutedEventArgs e)

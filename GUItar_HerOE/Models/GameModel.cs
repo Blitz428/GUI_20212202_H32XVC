@@ -9,7 +9,7 @@ namespace GUItar_HerOE.Models
     public class GameModel
     {
         public const int Xstep = 100;
-        const int NumGuitar = 4;
+        const int NumGuitar = 3;
         public static Random random;
 
         public List<Guitar> Guitars { get; private set; }
@@ -23,11 +23,10 @@ namespace GUItar_HerOE.Models
             Guitars = new List<Guitar>();
             random = new Random();
             
-            for (int i = 0; i <= NumGuitar+1; i++)
+            for (int i = 1; i <= NumGuitar; i++)
             {
-                Guitars.Add(new Guitar((i * GameHeight / NumGuitar)*random.Next(15,40)));
+                Guitars.Add(new Guitar((i * (350 / random.Next(2,4)))+10 / NumGuitar )); //* random.Next(25,40)
             }
-            ;
         }
     }
 }
