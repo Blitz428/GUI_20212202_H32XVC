@@ -30,11 +30,17 @@ namespace GUItar_HerOE.Controller
             gameLogic = new GameLogic(gameModel);        
             gameRenderer = new GameRenderer_yellow(gameModel);
 
+            foreach (var guitar in gameModel.Guitars)
+            {
+                guitar.Color = "yellow";
+                guitar.Activated = false;
+            }
+
             Window win = Window.GetWindow(this);
             if (win != null)
             {
                 mainTimer = new DispatcherTimer(DispatcherPriority.Send);
-                mainTimer.Interval = TimeSpan.FromSeconds(0.01);
+                mainTimer.Interval = TimeSpan.FromSeconds(0.02);
                 mainTimer.Tick += MainTimer_Tick;
                 mainTimer.Start();
             }

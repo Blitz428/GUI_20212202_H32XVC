@@ -27,14 +27,20 @@ namespace GUItar_HerOE.Controller
         private void GameControl_Loaded(object sender, RoutedEventArgs e)
         {
             gameModel = new GameModel(0, 20);
-            gameLogic = new GameLogic(gameModel);        
             gameRenderer = new GameRenderer_green(gameModel);
+            gameLogic = new GameLogic(gameModel);        
+
+            foreach (var guitar in gameModel.Guitars)
+            {
+                guitar.Color = "green";
+                guitar.Activated = false;
+            }
 
             Window win = Window.GetWindow(this);
             if (win != null)
             {
                 mainTimer = new DispatcherTimer(DispatcherPriority.Send);
-                mainTimer.Interval = TimeSpan.FromSeconds(0.01);
+                mainTimer.Interval = TimeSpan.FromSeconds(0.03);
                 mainTimer.Tick += MainTimer_Tick;
                 mainTimer.Start();
             }

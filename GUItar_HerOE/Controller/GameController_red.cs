@@ -16,7 +16,7 @@ namespace GUItar_HerOE.Controller
     {     
         GameLogic gameLogic;
         GameModel gameModel;    
-        GameRenderer_red gameRenderer_red;
+        GameRenderer_red gameRenderer;
         DispatcherTimer mainTimer;
 
         public GameController_red()
@@ -28,13 +28,19 @@ namespace GUItar_HerOE.Controller
         {
             gameModel = new GameModel(0, 20);
             gameLogic = new GameLogic(gameModel);        
-            gameRenderer_red = new GameRenderer_red(gameModel);
+            gameRenderer = new GameRenderer_red(gameModel);
+
+            foreach (var guitar in gameModel.Guitars)
+            {
+                guitar.Color = "red";
+                guitar.Activated = false;
+            }
 
             Window win = Window.GetWindow(this);
             if (win != null)
             {
                 mainTimer = new DispatcherTimer(DispatcherPriority.Send);
-                mainTimer.Interval = TimeSpan.FromSeconds(0.01);
+                mainTimer.Interval = TimeSpan.FromSeconds(0.07);
                 mainTimer.Tick += MainTimer_Tick;
                 mainTimer.Start();
             }
@@ -50,9 +56,9 @@ namespace GUItar_HerOE.Controller
 
         protected override void OnRender(DrawingContext drawingContext)
         {          
-            if (gameRenderer_red != null)
+            if (gameRenderer != null)
             {
-                gameRenderer_red.BuildDisplay(drawingContext);
+                gameRenderer.BuildDisplay(drawingContext);
             }
         }
     }

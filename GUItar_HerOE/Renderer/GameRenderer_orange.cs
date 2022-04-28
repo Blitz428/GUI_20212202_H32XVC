@@ -20,7 +20,7 @@ namespace GUItar_HerOE.Renderer
         {
             get
             {
-                return new ImageBrush(new BitmapImage(new Uri(Path.Combine(imagePath, "yellow.png"), UriKind.RelativeOrAbsolute)));
+                return new ImageBrush(new BitmapImage(new Uri(Path.Combine(imagePath, "orange.png"), UriKind.RelativeOrAbsolute)));
             }
         }
 

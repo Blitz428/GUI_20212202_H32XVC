@@ -30,6 +30,12 @@ namespace GUItar_HerOE.Controller
             gameLogic = new GameLogic(gameModel);        
             gameRenderer = new GameRenderer_orange(gameModel);
 
+            foreach (var guitar in gameModel.Guitars)
+            {
+                guitar.Color = "orange";
+                guitar.Activated = false;
+            }
+
             Window win = Window.GetWindow(this);
             if (win != null)
             {

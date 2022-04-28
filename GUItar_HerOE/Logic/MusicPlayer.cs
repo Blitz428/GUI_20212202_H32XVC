@@ -14,6 +14,7 @@ namespace GUItar_HerOE.Logic
         private SoundPlayer soundPlayer;
         private List<string> songs;
         private string songFolderPath;
+        public string CurrentSong;
 
         public MusicPlayer()
         {
@@ -52,6 +53,7 @@ namespace GUItar_HerOE.Logic
             if (songs.Count() > id && id >= 0)
             {              
                 soundPlayer = new System.Media.SoundPlayer($"{songFolderPath}{songs[id]}");
+                CurrentSong = songs[id];
             }
         }
             

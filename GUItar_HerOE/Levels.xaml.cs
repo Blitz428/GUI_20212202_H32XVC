@@ -42,6 +42,7 @@ namespace GUItar_HerOE
             for (int i = 0; i < 7; i++)
             {
                 Button button = new Button();
+                //button.IsEnabled = false;
                 button.Tag = "button_" + i;
                 button.Margin = new Thickness(10);
                 button.Padding = new Thickness(10);
@@ -54,7 +55,7 @@ namespace GUItar_HerOE
                 button.FontWeight = FontWeights.Bold;
                 button.FontSize = 20;
                 button.FontFamily = new FontFamily("Consolas");
-                levelsWrap.Children.Add(button);
+                levelsWrap.Children.Add(button);                
             }
 
             Button button_menu = new Button();
