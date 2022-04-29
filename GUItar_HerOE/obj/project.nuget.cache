@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "+FjsBz3pCmGULQ+F5gtTshGiXtWgOzxUwLX5qflOqe6GybZoYpFs+Zf7P1oJHGPyTMYWtCPf3EbKDpQZ/Zzj8w==",
+  "dgSpecHash": "7BWQWa+SJIRyga++z5XNKsZV5pg/uv8/Lt9Zoe8C2Ma8w/aMX6TpNTlmQx91LvQSXcJkkWdB8rWRIPfYv7jjzw==",
   "success": true,
-  "projectFilePath": "D:\\..Iskola\\..Óbudai egyetem\\.2021 - 22 tanév 6. félév\\Szoftver 4\\.Játék\\Git mappa\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+  "projectFilePath": "D:\\OneDrive - Óbudai egyetem\\6. Félév\\SZTGUI\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
-    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
-    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\szege\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\szege\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\szege\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
+    "C:\\Users\\szege\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\szege\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": [
     {
