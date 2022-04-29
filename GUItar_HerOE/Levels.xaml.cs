@@ -35,8 +35,14 @@ namespace GUItar_HerOE
             this.Close();
         }
 
+        private void LevelsButton_Click(object sender, RoutedEventArgs e)
+        {
+            int index = int.Parse((sender as Button).Tag.ToString().Split('_')[1]);
+            new Game(index).ShowDialog();
+        }
+      
 
-       
+
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             for (int i = 0; i < 7; i++)
@@ -55,6 +61,7 @@ namespace GUItar_HerOE
                 button.FontWeight = FontWeights.Bold;
                 button.FontSize = 20;
                 button.FontFamily = new FontFamily("Consolas");
+                button.Click += LevelsButton_Click;
                 levelsWrap.Children.Add(button);                
             }
 
