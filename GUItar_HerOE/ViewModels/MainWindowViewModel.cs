@@ -21,7 +21,7 @@ namespace GUItar_HerOE.ViewModels
         public ICommand UnlockLevels { get; set; }
         private IMenuLogic logic;
 
-        
+
         private bool isUnlock;
 
         public bool IsUnlock
@@ -53,7 +53,7 @@ namespace GUItar_HerOE.ViewModels
                 );
 
             OpenGameWindow = new RelayCommand(
-                () => logic.OpenGameWindow()
+                () => logic.OpenGameWindow(1)
                 );
 
             CustomMusicLoading = new RelayCommand(
@@ -62,7 +62,7 @@ namespace GUItar_HerOE.ViewModels
 
             UnlockLevels = new RelayCommand(
                () => logic.UnlockLevels()
-               );         
+               );
 
             Messenger.Register<MainWindowViewModel, string, string>(this, "MenuInfo", (recepient, msg) =>
             {

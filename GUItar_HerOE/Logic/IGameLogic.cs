@@ -17,5 +17,6 @@ namespace GUItar_HerOE.Logic
         public void GuitarContact_red();
         public void GuitarContact_yellow();
         public void GuitarContact_orange();
+        public void Opening(int musicId);
     }
 }

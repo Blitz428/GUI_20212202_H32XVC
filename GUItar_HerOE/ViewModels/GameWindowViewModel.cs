@@ -14,14 +14,14 @@ using System.Windows.Input;
 namespace GUItar_HerOE.ViewModels
 {
     class GameWindowViewModel : ObservableRecipient
-    {      
-        public int CurrentLevel { get; set; }      
+    {
+        public int CurrentLevel { get; set; }
         public ICommand GuitarContact_green { get; set; }
         public ICommand GuitarContact_orange { get; set; }
         public ICommand GuitarContact_red { get; set; }
         public ICommand GuitarContact_yellow { get; set; }
         private IGameLogic logic;
-        
+
         public int Point
         {
             get { return logic.Point; }
@@ -44,6 +44,11 @@ namespace GUItar_HerOE.ViewModels
         public GameWindowViewModel() : this(IsInDesignMode ? null : Ioc.Default.GetService<IGameLogic>())
         {
 
+        }
+
+        public void Setup(int MusicID)
+        {
+            logic.MusicStart(MusicID);
         }
 
         public GameWindowViewModel(IGameLogic logic)
@@ -69,6 +74,7 @@ namespace GUItar_HerOE.ViewModels
             Messenger.Register<GameWindowViewModel, string, string>(this, "GameInfo", (recepient, msg) =>
             {
                 OnPropertyChanged(nameof(Point));
+                OnPropertyChanged(nameof(CurrentSong));
             });
         }
 
@@ -85,6 +91,11 @@ namespace GUItar_HerOE.ViewModels
         public void Closing(int id)
         {
             logic.Closing(id);
+        }
+
+        public void Opening(int id)
+        {
+            logic.Opening(id);
         }
     }
 }

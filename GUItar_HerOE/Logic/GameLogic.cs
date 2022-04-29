@@ -1,4 +1,5 @@
 ﻿using GUItar_HerOE.Models;
+using Microsoft.Toolkit.Mvvm.Messaging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,42 +11,50 @@ namespace GUItar_HerOE.Logic
 {
     public class GameLogic : IGameLogic
     {
-        private MusicPlayer musicPlayer;
-        private IMenuLogic menuLogic;
+        private MusicLogic musicLogic;
         private GameModel gameModel;
+        private IMenuLogic menuLogic;
+        private IMessenger messenger;
+
         public int Point { get; set; }
         public string CurrentSong { get; set; }
 
         public GameLogic(GameModel gameModel)
         {
             this.gameModel = gameModel;
+            musicLogic = new MusicLogic();
         }
 
-        public GameLogic(IMenuLogic menuLogic)
+        public GameLogic(IMenuLogic menuLogic, IMessenger messenger)
         {
+            this.messenger = messenger;
             this.menuLogic = menuLogic;
+            musicLogic = new MusicLogic();
         }
 
         public void MusicStart(int id)
         {
-            musicPlayer = new MusicPlayer();
-            musicPlayer.SelectSong(id);
-            musicPlayer.Play();
+            musicLogic.StartMusic(id);
+            CurrentSong = musicLogic.CurrentMusicName();
             Point = 0;
+            messenger.Send("Song and point values changed!", "GameInfo");
         }
 
         public void MusicStop(int id)
         {
-            musicPlayer = new MusicPlayer();
-            musicPlayer.SelectSong(id);
-            musicPlayer.Stop();
+            musicLogic.StopMusic(id);
         }
 
         public void Closing(int id)
         {
             MusicStop(id);
             menuLogic.CustomMusicDelete();
-            menuLogic.MenuMusicStart();     
+            menuLogic.MenuMusicStart();
+        }
+
+        public void Opening(int musicId)
+        {
+            MusicStart(musicId);
         }
 
         public void GuitarTick(Guitar guitar)
@@ -63,7 +72,7 @@ namespace GUItar_HerOE.Logic
             foreach (Guitar guitar in gameModel.Guitars)
             {
                 GuitarTick(guitar);
-            }            
+            }
         }
 
         public void CheckGuitar(string color)
@@ -79,6 +88,7 @@ namespace GUItar_HerOE.Logic
             //    {
             //        // itt kell vizsgálni, hogy lenyomta e
             //        Point -= 10;
+            //        messenger.Send("ponits changed!", "GameInfo");
             //        //MessageBox.Show($"-10 Color:{guitar.Color}");
             //        //messenger.Send("Point changed!", "GameInfo");
             //    }

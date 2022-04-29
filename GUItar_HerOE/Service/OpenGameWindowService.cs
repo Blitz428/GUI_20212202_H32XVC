@@ -8,9 +8,9 @@ namespace GUItar_HerOE.Service
 {
     public class OpenGameWindowService : IOpenGameWindowService
     {
-        public void Open()
+        public void Open(int MusicID)
         {
-            new Game().ShowDialog();
+            new Game(MusicID).ShowDialog();
         }
     }
 }

@@ -29,9 +29,8 @@
     <None Remove="Songs\5_Darude sandstorm.wav" />
     <None Remove="Songs\6_You spin me round.wav" />
     <None Remove="Songs\7_Heyyeyaa.wav" />
-    <None Remove="Songs\fail.wav" />
-    <None Remove="Songs\menu.wav" />
-    <None Remove="Songs\z_%24witchblade x Shade Apollo - Undead Smile.wav" />
+    <None Remove="Songs\8_fail.wav" />
+    <None Remove="Songs\9_menu.wav" />
   </ItemGroup>
 
   <ItemGroup>
@@ -62,10 +61,10 @@
     <Content Include="Songs\7_Heyyeyaa.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Songs\fail.wav">
+    <Content Include="Songs\8_fail.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Songs\menu.wav">
+    <Content Include="Songs\9_menu.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -21,20 +21,22 @@ namespace GUItar_HerOE
     /// </summary>
     public partial class Game : Window
     {
+        private int MusicID;
         private Random r;
-        public Game()
+        public Game(int MusicID)
         {
             InitializeComponent();
             r = new Random();
+            this.MusicID = MusicID;
             GreenController.Setup("green", (double)r.Next(1, 20) / 1000);
             OrangeController.Setup("orange", (double)r.Next(1, 20) / 1000);
             YellowController.Setup("yellow", (double)r.Next(1, 20) / 1000);
             RedController.Setup("red", (double)r.Next(1, 20) / 1000);
-        }        
+        }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();         
+            this.Close();
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -60,6 +62,12 @@ namespace GUItar_HerOE
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             // red
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            (DataContext as GameWindowViewModel).Opening(MusicID);
+
         }
     }
 }

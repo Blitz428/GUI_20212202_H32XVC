@@ -2,6 +2,6 @@
 {
     public interface IOpenGameWindowService
     {
-        void Open();
+        void Open(int MusicID);
     }
 }

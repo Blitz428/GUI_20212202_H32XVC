@@ -21,7 +21,7 @@ namespace GUItar_HerOE.Logic
             songs = new List<string>();
             songFolderPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Songs\");
             var files = Directory.GetFiles(songFolderPath);
-           
+
             foreach (var current_file in files)
             {
                 if (current_file.ToString().Contains(".wav"))
@@ -32,9 +32,9 @@ namespace GUItar_HerOE.Logic
         }
 
         public void UpdateList()
-        {          
+        {
             var files = Directory.GetFiles(songFolderPath);
-
+            songs = new List<string>();
             foreach (var current_file in files)
             {
                 if (current_file.ToString().Contains(".wav"))
@@ -42,7 +42,7 @@ namespace GUItar_HerOE.Logic
                     if (!songs.Contains(current_file.Split(songFolderPath)[1]))
                     {
                         songs.Add(current_file.Split(songFolderPath)[1]);
-                    }                   
+                    }
                 }
             }
         }
@@ -51,18 +51,18 @@ namespace GUItar_HerOE.Logic
         {
             UpdateList();
             if (songs.Count() > id && id >= 0)
-            {              
+            {
                 soundPlayer = new System.Media.SoundPlayer($"{songFolderPath}{songs[id]}");
                 CurrentSong = songs[id];
             }
         }
-            
+
         public void Play()
         {
             if (soundPlayer != null)
             {
                 soundPlayer.Play();
-            }            
+            }
         }
 
         public void Stop()

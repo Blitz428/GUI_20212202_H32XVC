@@ -8,7 +8,7 @@
         xmlns:renderer="clr-namespace:GUItar_HerOE.Renderer"
         xmlns:controller="clr-namespace:GUItar_HerOE.Controller"
         mc:Ignorable="d"
-        Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+        Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing" Loaded="Window_Loaded">
     <Window.Background>
         <ImageBrush ImageSource="Images/gamebackground.png" TileMode="Tile"/>
     </Window.Background>
@@ -32,7 +32,8 @@
 
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,84,0" Grid.RowSpan="2">
-            <Label ContentStringFormat="Music name: {0}" Content="{Binding CurrentSong}"  FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" />
+            <Label Content="Music name:"  FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" />
+            <Label Content="{Binding CurrentSong}"  FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" />
         </StackPanel>
 
         <StackPanel x:Name="GreenColumn" Grid.Column="1" Grid.Row="0">
