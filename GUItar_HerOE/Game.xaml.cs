@@ -58,7 +58,7 @@ namespace GUItar_HerOE
             point.Content = points;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Close(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
@@ -87,6 +87,30 @@ namespace GUItar_HerOE
                     break;
                 default:
                     break;
+            }
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.Source is Label && (e.Source as Label).Name != null)
+            {
+                switch ((e.Source as Label).Name)
+                {
+                    case "GreenArrow":
+                        GreenColumnAction();
+                        break;
+                    case "OrangeArrow":
+                        OrangeColumnAction();
+                        break;
+                    case "YellowArrow":
+                        YellowColumnAction();
+                        break;
+                    case "RedArrow":
+                        RedColumnAction();
+                        break;
+                    default:
+                        break;
+                }
             }
         }
 

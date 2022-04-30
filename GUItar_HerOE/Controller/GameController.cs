@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
@@ -50,6 +51,7 @@ namespace GUItar_HerOE.Controller
             if (win != null)
             {
                 win.KeyDown += this.Win_KeyDown;
+                win.MouseDown += Win_MouseDown;
                 mainTimer = new DispatcherTimer(DispatcherPriority.Send);
                 mainTimer.Interval = TimeSpan.FromSeconds(timer);
                 mainTimer.Tick += MainTimer_Tick;
@@ -57,7 +59,7 @@ namespace GUItar_HerOE.Controller
             }
 
             InvalidateVisual();
-        }
+        }       
 
         private void MainTimer_Tick(object sender, EventArgs e)
         {
@@ -71,6 +73,31 @@ namespace GUItar_HerOE.Controller
             {
                 gameRenderer.BuildDisplay(drawingContext);              
             }
+        }
+
+        private void Win_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.Source is Label && (e.Source as Label).Name != null)
+            {
+                switch ((e.Source as Label).Name)
+                {
+                    case "GreenArrow":
+                        gameLogic.CheckGuitar("green");
+                        break;
+                    case "OrangeArrow":
+                        gameLogic.CheckGuitar("orange");
+                        break;
+                    case "YellowArrow":
+                        gameLogic.CheckGuitar("yellow");
+                        break;
+                    case "RedArrow":
+                        gameLogic.CheckGuitar("red");
+                        break;
+                    default:
+                        break;
+                }
+            }       
+            this.InvalidateVisual();
         }
 
         private void Win_KeyDown(object sender, KeyEventArgs e)
