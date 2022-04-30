@@ -24,10 +24,12 @@ namespace GUItar_HerOE
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Random r;
         public MainWindow()
         {
             InitializeComponent();
             (this.DataContext as MainWindowViewModel).MenuMusicStart();
+            r = new Random();
         }
 
         private void Help_Click(object sender, RoutedEventArgs e)
@@ -50,8 +52,8 @@ namespace GUItar_HerOE
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            new Game(1).ShowDialog();
+        {           
+            new Game(r.Next(0, 7)).ShowDialog();
         }
     }
 }

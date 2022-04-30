@@ -91,8 +91,6 @@ namespace GUItar_HerOE.Controller
                     break;
                 default:
                     break;
-
-
             }
            this.InvalidateVisual();            
         }

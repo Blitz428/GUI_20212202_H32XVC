@@ -35,6 +35,7 @@ namespace GUItar_HerOE
             musicLogic = new MusicLogic();
             musicLogic.StartMusic(MusicID);
             MusicName.Content = musicLogic.CurrentMusicName();
+            levels.Content = MusicID+1;
             this.MusicID = MusicID;
             GreenController.Setup("green", (double)r.Next(1, 20) / 1000);
             OrangeController.Setup("orange", (double)r.Next(1, 20) / 1000);
@@ -68,24 +69,41 @@ namespace GUItar_HerOE
             musicLogic.StartMusic(8);
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            // green
+            switch (e.Key)
+            {
+                case Key.Left:
+                    GreenColumnAction();
+                    break;
+                case Key.Up:
+                    OrangeColumnAction();
+                    break;
+                case Key.Down:
+                    YellowColumnAction();
+                    break;
+                case Key.Right:
+                    RedColumnAction();
+                    break;
+                default:
+                    break;
+            }
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void GreenColumnAction()
         {
-            // orange
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void OrangeColumnAction()
         {
-            // yellow
         }
 
-        private void Button_Click_4(object sender, RoutedEventArgs e)
+        private void YellowColumnAction()
         {
-            // red
+        }
+
+        private void RedColumnAction()
+        {
         }
     }
 }

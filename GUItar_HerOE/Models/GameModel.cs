@@ -23,6 +23,7 @@ namespace GUItar_HerOE.Models
         {
             this.GameHeight = height;
             this.GameWidht = widht;
+            Point = 10;
             Guitars = new List<Guitar>();
             random = new Random();
             
