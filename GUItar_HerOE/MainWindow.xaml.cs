@@ -48,5 +48,10 @@ namespace GUItar_HerOE
         {
             (this.DataContext as MainWindowViewModel).CustomMusicDelete();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            new Game(1).ShowDialog();
+        }
     }
 }

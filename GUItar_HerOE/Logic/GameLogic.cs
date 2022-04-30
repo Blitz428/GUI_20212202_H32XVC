@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Input;
 
 namespace GUItar_HerOE.Logic
 {
@@ -13,8 +14,7 @@ namespace GUItar_HerOE.Logic
     {
         private MusicLogic musicLogic;
         private GameModel gameModel;
-        private IMenuLogic menuLogic;
-        private IMessenger messenger;
+        private Random random;
 
         public int Point { get; set; }
         public string CurrentSong { get; set; }
@@ -23,38 +23,7 @@ namespace GUItar_HerOE.Logic
         {
             this.gameModel = gameModel;
             musicLogic = new MusicLogic();
-        }
-
-        public GameLogic(IMenuLogic menuLogic, IMessenger messenger)
-        {
-            this.messenger = messenger;
-            this.menuLogic = menuLogic;
-            musicLogic = new MusicLogic();
-        }
-
-        public void MusicStart(int id)
-        {
-            musicLogic.StartMusic(id);
-            CurrentSong = musicLogic.CurrentMusicName();
-            Point = 0;
-            messenger.Send("Song and point values changed!", "GameInfo");
-        }
-
-        public void MusicStop(int id)
-        {
-            musicLogic.StopMusic(id);
-        }
-
-        public void Closing(int id)
-        {
-            MusicStop(id);
-            menuLogic.CustomMusicDelete();
-            menuLogic.MenuMusicStart();
-        }
-
-        public void Opening(int musicId)
-        {
-            MusicStart(musicId);
+            random = new Random();
         }
 
         public void GuitarTick(Guitar guitar)
@@ -62,8 +31,8 @@ namespace GUItar_HerOE.Logic
             guitar.Procent += 1;
             if (guitar.Procent > 350)
             {
-                guitar.Procent = 0;
-                guitar.Activated = false;
+                gameModel.Point -= 10;
+                guitar.Procent = random.Next(0, 30);
             }
         }
 
@@ -77,43 +46,26 @@ namespace GUItar_HerOE.Logic
 
         public void CheckGuitar(string color)
         {
-            //foreach (Guitar guitar in gameModel.Guitars)
-            //{
-            //    if ((guitar.Procent > 293 && 350 > guitar.Procent))
-            //    {
-            //        // ezen időszakban kell aktiválni
-            //        guitar.Activated = true;
-            //    }
-            //    if (guitar.Procent > 349 && !guitar.Activated)
-            //    {
-            //        // itt kell vizsgálni, hogy lenyomta e
-            //        Point -= 10;
-            //        messenger.Send("ponits changed!", "GameInfo");
-            //        //MessageBox.Show($"-10 Color:{guitar.Color}");
-            //        //messenger.Send("Point changed!", "GameInfo");
-            //    }
-            //}
-        }
+            List<Guitar> check_guitars = new List<Guitar>();
+            foreach (Guitar guitar in gameModel.Guitars)
+            {
+                if (guitar.Color == color)
+                {
+                    check_guitars.Add(guitar);
+                }
+            }
 
-        public void GuitarContact_green()
-        {
-            CheckGuitar("green");
-        }
+            if (check_guitars.Count() != 0)
+            {
+                Guitar maxGuitar = check_guitars.OrderBy(x => x.Procent).Last();
+                Guitar guitar1 = gameModel.Guitars.Find(x => x == maxGuitar);
 
-        public void GuitarContact_red()
-        {
-            CheckGuitar("red");
+                if (maxGuitar.Procent > 293 && 350 > maxGuitar.Procent)
+                {
+                    guitar1.Procent = 0;
+                    gameModel.Point += 10;
+                }
+            }
         }
-
-        public void GuitarContact_yellow()
-        {
-            CheckGuitar("yellow");
-        }
-
-        public void GuitarContact_orange()
-        {
-            CheckGuitar("orange");
-        }
-
     }
 }

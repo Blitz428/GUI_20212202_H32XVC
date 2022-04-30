@@ -15,6 +15,9 @@ namespace GUItar_HerOE.Models
         public List<Guitar> Guitars { get; private set; }
         public double GameWidht { get; private set; }
         public double GameHeight { get; private set; }
+        public int Level { get; set; }
+        public int Point { get; set; }
+        public string MusicName { get; set; }
 
         public GameModel(double widht, double height)
         {

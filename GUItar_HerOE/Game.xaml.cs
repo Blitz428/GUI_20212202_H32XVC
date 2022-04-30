@@ -1,4 +1,5 @@
-﻿using GUItar_HerOE.ViewModels;
+﻿using GUItar_HerOE.Logic;
+using GUItar_HerOE.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,15 +24,37 @@ namespace GUItar_HerOE
     {
         private int MusicID;
         private Random r;
+        private MusicLogic musicLogic;
+        DispatcherTimer mainTimer;
+        public int points = 0;
+
         public Game(int MusicID)
         {
             InitializeComponent();
             r = new Random();
+            musicLogic = new MusicLogic();
+            musicLogic.StartMusic(MusicID);
+            MusicName.Content = musicLogic.CurrentMusicName();
             this.MusicID = MusicID;
             GreenController.Setup("green", (double)r.Next(1, 20) / 1000);
             OrangeController.Setup("orange", (double)r.Next(1, 20) / 1000);
             YellowController.Setup("yellow", (double)r.Next(1, 20) / 1000);
             RedController.Setup("red", (double)r.Next(1, 20) / 1000);
+            
+            mainTimer = new DispatcherTimer(DispatcherPriority.Send);
+            mainTimer.Interval = TimeSpan.FromSeconds(0.001);
+            mainTimer.Tick += MainTimer_Tick;
+            mainTimer.Start();
+        }
+
+        private void MainTimer_Tick(object sender, EventArgs e)
+        {
+            points = 0;
+            points += GreenController.gameModel.Point;
+            points += OrangeController.gameModel.Point;
+            points += YellowController.gameModel.Point;
+            points += RedController.gameModel.Point;
+            point.Content = points;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -41,7 +64,8 @@ namespace GUItar_HerOE
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            (DataContext as GameWindowViewModel).Closing(9);
+            musicLogic.StopMusic(MusicID);
+            musicLogic.StartMusic(8);
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -62,12 +86,6 @@ namespace GUItar_HerOE
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             // red
-        }
-
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            (DataContext as GameWindowViewModel).Opening(MusicID);
-
         }
     }
 }

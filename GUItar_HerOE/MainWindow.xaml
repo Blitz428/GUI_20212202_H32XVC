@@ -29,7 +29,7 @@
         <StackPanel Grid.Column="1" >
             <Label Foreground="White" Content="GUItar HerOE" FontWeight="Bold" FontSize="50" Padding="20" HorizontalAlignment="Center" FontFamily="Consolas"/>
 
-            <Button  Content="New Game" FontSize="25" Command="{Binding OpenGameWindow}" Padding="15" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Consolas"/>
+            <Button  Content="New Game" FontSize="25" Padding="15" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Consolas" Click="Button_Click"/>
             <Label Padding="4" Margin="4"></Label>
             <Button Content="Levels" FontSize="20" Command="{Binding OpenLevelsWindow}" Padding="10" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Consolas"/>
             <Label Padding="3" ></Label>

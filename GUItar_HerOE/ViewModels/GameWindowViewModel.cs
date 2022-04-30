@@ -41,35 +41,35 @@ namespace GUItar_HerOE.ViewModels
             }
         }
 
-        public GameWindowViewModel() : this(IsInDesignMode ? null : Ioc.Default.GetService<IGameLogic>())
-        {
+        //public GameWindowViewModel() : this(IsInDesignMode ? null : Ioc.Default.GetService<IGameLogic>())
+        //{
 
-        }
+        //}
 
-        public void Setup(int MusicID)
-        {
-            logic.MusicStart(MusicID);
-        }
+        //public void Setup(int MusicID)
+        //{
+        //    logic.MusicStart(MusicID);
+        //}
 
         public GameWindowViewModel(IGameLogic logic)
         {
             this.logic = logic;
 
-            GuitarContact_green = new RelayCommand(
-                () => logic.GuitarContact_green()
-                );
+            //GuitarContact_green = new RelayCommand(
+            //    () => logic.GuitarContact_green()
+            //    );
 
-            GuitarContact_orange = new RelayCommand(
-                () => logic.GuitarContact_orange()
-                );
+            //GuitarContact_orange = new RelayCommand(
+            //    () => logic.GuitarContact_orange()
+            //    );
 
-            GuitarContact_red = new RelayCommand(
-                () => logic.GuitarContact_red()
-                );
+            //GuitarContact_red = new RelayCommand(
+            //    () => logic.GuitarContact_red()
+            //    );
 
-            GuitarContact_yellow = new RelayCommand(
-                () => logic.GuitarContact_yellow()
-                );
+            //GuitarContact_yellow = new RelayCommand(
+            //    () => logic.GuitarContact_yellow()
+            //    );
 
             Messenger.Register<GameWindowViewModel, string, string>(this, "GameInfo", (recepient, msg) =>
             {
@@ -78,24 +78,24 @@ namespace GUItar_HerOE.ViewModels
             });
         }
 
-        public void MusicStart(int id)
-        {
-            logic.MusicStart(id);
-        }
+        //public void MusicStart(int id)
+        //{
+        //    logic.MusicStart(id);
+        //}
 
-        public void MusicStop(int id)
-        {
-            logic.MusicStop(id);
-        }
+        //public void MusicStop(int id)
+        //{
+        //    logic.MusicStop(id);
+        //}
 
-        public void Closing(int id)
-        {
-            logic.Closing(id);
-        }
+        //public void Closing(int id)
+        //{
+        //    logic.Closing(id);
+        //}
 
-        public void Opening(int id)
-        {
-            logic.Opening(id);
-        }
+        //public void Opening(int id)
+        //{
+        //    logic.Opening(id);
+        //}
     }
 }
