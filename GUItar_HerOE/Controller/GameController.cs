@@ -58,7 +58,7 @@ namespace GUItar_HerOE.Controller
                 mainTimer.Start();
             }
 
-            InvalidateVisual();
+            //InvalidateVisual();
         }       
 
         private void MainTimer_Tick(object sender, EventArgs e)

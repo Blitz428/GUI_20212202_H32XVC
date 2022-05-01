@@ -191,3 +191,5 @@ D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\8_fail.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\9_menu.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GameEnd.g.cs
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GameEnd.baml

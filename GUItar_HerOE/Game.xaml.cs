@@ -30,7 +30,7 @@ namespace GUItar_HerOE
         DispatcherTimer soundTimer;
         private int songLenght;
         public int points = 0;
-        int h, m, s;
+        int m=1, s=20;
 
         public Game(int MusicID)
         {
@@ -39,13 +39,13 @@ namespace GUItar_HerOE
             musicLogic = new MusicLogic();
             musicLogic.StartMusic(MusicID);
             songLenght = musicLogic.CurrentMusicLenght();
-
+            
             soundTimer = new DispatcherTimer(DispatcherPriority.Send);
             soundTimer.Interval = TimeSpan.FromSeconds(1);
             soundTimer.Tick += SoundTimer_Tick;
             soundTimer.Start();
 
-            timer.Content = $"{h}:{m}:{s}";
+            timer.Content = $"{0}:{m}:{s}";
             MusicName.Content = musicLogic.CurrentMusicName();
             levels.Content = MusicID+1;
             this.MusicID = MusicID;
@@ -63,18 +63,23 @@ namespace GUItar_HerOE
 
         private void SoundTimer_Tick(object sender, EventArgs e)
         {
-            s += 1;
-            if (s == 60)
+            s -= 1;
+            if (s == 0 && m == 0)
             {
-                s = 0;
-                m += 1;
+                soundTimer.Stop();
+                mainTimer.Stop();
+                musicLogic.StopMusic(MusicID);
+                new GameEnd(points, "msg").ShowDialog();
+                this.Close();
             }
-            if (m == 60)
+
+            if (s == 0)
             {
-                m = 0;
-                h += 1;
+                s = 59;
+                m -= 1;
             }
-            timer.Content = $"{h}:{m}:{s}";
+
+            timer.Content = $"{0}:{m}:{s}";
         }
 
         private void MainTimer_Tick(object sender, EventArgs e)
