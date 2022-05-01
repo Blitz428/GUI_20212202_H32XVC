@@ -59,14 +59,16 @@ namespace GUItar_HerOE
         }
 
         private void Close(object sender, RoutedEventArgs e)
-        {
+        {           
             this.Close();
         }
 
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        private void Game_Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             musicLogic.StopMusic(MusicID);
             musicLogic.StartMusic(8);
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.CustomMusicDelete(sender, e);
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)

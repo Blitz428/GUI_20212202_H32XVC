@@ -27,7 +27,11 @@ namespace GUItar_HerOE.Logic
             musicPlayer.Play();
             currentMusicLenght = musicPlayer.SongTimeLenght();
             currentMusicName = musicPlayer.CurrentSong;
-            currentMusicName = (currentMusicName.Split('.')[0]).Split('_')[1];
+            if (currentMusicName != null)
+            {
+                currentMusicName = (currentMusicName.Split('.')[0]).Split('_')[1];
+            }
+           
         }
 
         public void StopMusic(int id)
@@ -39,6 +43,11 @@ namespace GUItar_HerOE.Logic
         public string CurrentMusicName()
         {
             return currentMusicName;
+        }
+
+        public string CurrentCusctomMusicName()
+        {
+            return currentCustomMusicName;
         }
 
         public string CurrentMusicLenght()
@@ -57,21 +66,27 @@ namespace GUItar_HerOE.Logic
             }
         }
 
-        public void CustomMusicLoading()
+        public bool CustomMusicLoading()
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
+            
             if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-            {
+            {                     
+                string sourcePath = openFileDialog.FileName;
+                string targetPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Songs");
+
                 var splittedSongPath = openFileDialog.FileName.Split("\\");
                 currentMusicName = splittedSongPath[splittedSongPath.Length - 1];
                 currentCustomMusicName = splittedSongPath[splittedSongPath.Length - 1];
 
-                string sourcePath = openFileDialog.FileName;
-                string targetPath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Songs");
-
                 string destFile = System.IO.Path.Combine(targetPath, "z_" + currentMusicName);
 
-                System.IO.File.Copy(sourcePath, destFile, true);
+                System.IO.File.Copy(sourcePath, destFile, true);             
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
     }

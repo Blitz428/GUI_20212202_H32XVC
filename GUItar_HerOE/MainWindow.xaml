@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:GUItar_HerOE"
         xmlns:vm="clr-namespace:GUItar_HerOE.ViewModels"
         mc:Ignorable="d"
-        Title="GUItar HerOE" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing">
+        Title="GUItar HerOE" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="CustomMusicDelete">
     <Window.Background>
         <ImageBrush ImageSource="Images/menu.jpg"/>
     </Window.Background>

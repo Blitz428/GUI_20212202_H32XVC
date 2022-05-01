@@ -46,7 +46,7 @@ namespace GUItar_HerOE
             this.Close();
         }
 
-        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        public void CustomMusicDelete(object sender, System.ComponentModel.CancelEventArgs e)
         {
             (this.DataContext as MainWindowViewModel).CustomMusicDelete();
         }

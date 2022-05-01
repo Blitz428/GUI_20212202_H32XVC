@@ -8,7 +8,7 @@
         xmlns:renderer="clr-namespace:GUItar_HerOE.Renderer"
         xmlns:controller="clr-namespace:GUItar_HerOE.Controller"
         mc:Ignorable="d"
-        Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Window_Closing" KeyDown="Window_KeyDown" MouseDown="Window_MouseDown">
+        Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Game_Window_Closing" KeyDown="Window_KeyDown" MouseDown="Window_MouseDown">
     <Window.Background>
         <ImageBrush ImageSource="Images/gamebackground.png" TileMode="Tile"/>
     </Window.Background>

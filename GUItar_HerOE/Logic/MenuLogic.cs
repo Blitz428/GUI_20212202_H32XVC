@@ -45,8 +45,10 @@ namespace GUItar_HerOE.Logic
 
         public void CustomMusicLoading()
         {
-            musicLogic.CustomMusicLoading();
-            OpenCustomGameWindow(9);
+            if (musicLogic.CustomMusicLoading())
+            {
+                OpenCustomGameWindow(9);
+            }            
         }
 
         public void CustomMusicDelete()

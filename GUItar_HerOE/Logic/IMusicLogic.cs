@@ -7,6 +7,6 @@
         void StartMusic(int id);
         void StopMusic(int id);
         public void CustomMusicDelete();
-        public void CustomMusicLoading();
+        public bool CustomMusicLoading();
     }
 }
