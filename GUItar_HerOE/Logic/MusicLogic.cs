@@ -50,9 +50,9 @@ namespace GUItar_HerOE.Logic
             return currentCustomMusicName;
         }
 
-        public string CurrentMusicLenght()
+        public int CurrentMusicLenght()
         {
-            return currentMusicName;
+            return currentMusicLenght;
         }
 
         public void CustomMusicDelete()

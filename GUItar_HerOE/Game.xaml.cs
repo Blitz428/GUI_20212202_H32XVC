@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -26,7 +27,10 @@ namespace GUItar_HerOE
         private Random r;
         private MusicLogic musicLogic;
         DispatcherTimer mainTimer;
+        DispatcherTimer soundTimer;
+        private int songLenght;
         public int points = 0;
+        int h, m, s;
 
         public Game(int MusicID)
         {
@@ -34,9 +38,18 @@ namespace GUItar_HerOE
             r = new Random();
             musicLogic = new MusicLogic();
             musicLogic.StartMusic(MusicID);
+            songLenght = musicLogic.CurrentMusicLenght();
+
+            soundTimer = new DispatcherTimer(DispatcherPriority.Send);
+            soundTimer.Interval = TimeSpan.FromSeconds(1);
+            soundTimer.Tick += SoundTimer_Tick;
+            soundTimer.Start();
+
+            timer.Content = $"{h}:{m}:{s}";
             MusicName.Content = musicLogic.CurrentMusicName();
             levels.Content = MusicID+1;
             this.MusicID = MusicID;
+
             GreenController.Setup("green", (double)r.Next(1, 20) / 1000);
             OrangeController.Setup("orange", (double)r.Next(1, 20) / 1000);
             YellowController.Setup("yellow", (double)r.Next(1, 20) / 1000);
@@ -46,6 +59,22 @@ namespace GUItar_HerOE
             mainTimer.Interval = TimeSpan.FromSeconds(0.001);
             mainTimer.Tick += MainTimer_Tick;
             mainTimer.Start();
+        }
+
+        private void SoundTimer_Tick(object sender, EventArgs e)
+        {
+            s += 1;
+            if (s == 60)
+            {
+                s = 0;
+                m += 1;
+            }
+            if (m == 60)
+            {
+                m = 0;
+                h += 1;
+            }
+            timer.Content = $"{h}:{m}:{s}";
         }
 
         private void MainTimer_Tick(object sender, EventArgs e)

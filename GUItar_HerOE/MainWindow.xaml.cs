@@ -42,18 +42,24 @@ namespace GUItar_HerOE
         }
 
         private void Exit_Click(object sender, RoutedEventArgs e)
-        {        
+        {
             this.Close();
+            System.Windows.Application.Current.Shutdown();
         }
 
-        public void CustomMusicDelete(object sender, System.ComponentModel.CancelEventArgs e)
+        private void Closing_Menu(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            (this.DataContext as MainWindowViewModel).CustomMusicDelete();
+            System.Windows.Application.Current.Shutdown();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {           
             new Game(r.Next(0, 7)).ShowDialog();
+        }
+
+        public void CustomMusicDelete(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            (this.DataContext as MainWindowViewModel).CustomMusicDelete();
         }
     }
 }

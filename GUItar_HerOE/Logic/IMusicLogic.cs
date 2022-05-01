@@ -2,7 +2,7 @@
 {
     interface IMusicLogic
     {
-        string CurrentMusicLenght();
+        int CurrentMusicLenght();
         string CurrentMusicName();
         void StartMusic(int id);
         void StopMusic(int id);

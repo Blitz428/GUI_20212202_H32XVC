@@ -65,6 +65,10 @@ namespace GUItar_HerOE.Logic
                     guitar1.Procent = 0;
                     gameModel.Point += 10;
                 }
+                else
+                {
+                    gameModel.Point -= 10;
+                }
             }
         }
     }

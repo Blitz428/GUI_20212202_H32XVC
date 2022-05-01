@@ -41,28 +41,29 @@
             <controller:GameController x:Name="OrangeController"></controller:GameController>
         </StackPanel>
 
-        <Label x:Name="GreenArrow" Grid.Column="1" Grid.Row="2" Content="←" FontSize="30" FontWeight="Bold" Background="#FF0DE708" BorderBrush="#FF219F19" BorderThickness="3"   FontFamily="Consolas"/>
+        <Label x:Name="GreenArrow" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Column="1" Grid.Row="2" Content="←" FontSize="30" FontWeight="Bold" Background="#FF0DE708" BorderBrush="#FF219F19" BorderThickness="3"   FontFamily="Consolas"/>
 
         <StackPanel x:Name="YellowColumn" Grid.Column="3" Grid.RowSpan="3">
             <controller:GameController x:Name="YellowController"></controller:GameController>
         </StackPanel>
 
-        <Label x:Name="OrangeArrow" Grid.Column="2" Grid.Row="2" Content="↑" FontSize="30" FontWeight="Bold"  Background="#FFFFAF02"  BorderBrush="#FFFF5C00" BorderThickness="3" FontFamily="Consolas"/>
+        <Label x:Name="OrangeArrow" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Column="2" Grid.Row="2" Content="↑" FontSize="30" FontWeight="Bold"  Background="#FFFFAF02"  BorderBrush="#FFFF5C00" BorderThickness="3" FontFamily="Consolas"/>
 
         <StackPanel x:Name="RedColumn" Grid.Column="4" Grid.RowSpan="3" >
             <controller:GameController x:Name="RedController"></controller:GameController>
         </StackPanel>
 
-        <Label x:Name="YellowArrow" Grid.Column="3" Grid.Row="2" Content="↓" FontSize="30" FontWeight="Bold"  Background="#FFF4FF00"  BorderBrush="#FFC0C500" BorderThickness="3" FontFamily="Consolas"/>
+        <Label x:Name="YellowArrow" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Column="3" Grid.Row="2" Content="↓" FontSize="30" FontWeight="Bold"  Background="#FFF4FF00"  BorderBrush="#FFC0C500" BorderThickness="3" FontFamily="Consolas"/>
 
         <StackPanel Grid.Column="4" Grid.RowSpan="3" Grid.ColumnSpan="2" Margin="84,0,0,0">
         </StackPanel>
 
-        <Label x:Name="RedArrow" Grid.Column="4" Grid.Row="2" Content="→" FontSize="30" FontWeight="Bold"  Background="Red" BorderBrush="#FFC00000" BorderThickness="3" FontFamily="Consolas"/>
+        <Label x:Name="RedArrow" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Column="4" Grid.Row="2" Content="→" FontSize="30" FontWeight="Bold"  Background="Red" BorderBrush="#FFC00000" BorderThickness="3" FontFamily="Consolas"/>
 
         <StackPanel Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="2" Margin="84,0,0,0" Grid.RowSpan="2">
             <Label  x:Name="point" ContentStringFormat="Points: {0}" Content="" FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White"/>
             <Label  x:Name="levels" ContentStringFormat="Current level: {0}"  FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White"/>
+            <Label  x:Name="timer" FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White"/>
         </StackPanel>
 
         <Button Grid.Column="5" Grid.Row="2" Content="Menu" FontSize="25" Margin="10,10,10,10" Background="#FFF7EC53" Foreground=" #B2CD82CA " BorderBrush="#B2CD82CA"  BorderThickness="2" FontFamily="Consolas" Click="Close"/>
