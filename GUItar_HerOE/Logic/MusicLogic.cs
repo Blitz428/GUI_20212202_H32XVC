@@ -11,7 +11,7 @@ namespace GUItar_HerOE.Logic
 {
     class MusicLogic : IMusicLogic
     {
-        private MusicPlayer musicPlayer;
+        public MusicPlayer musicPlayer;
         private string currentMusicName;
         private string currentCustomMusicName;
         private int currentMusicLenght;

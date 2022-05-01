@@ -13,7 +13,7 @@ namespace GUItar_HerOE.Logic
     {
         private SoundPlayer soundPlayer;
         private List<string> songs;
-        private string songFolderPath;
+        public string songFolderPath;
         public string CurrentSong;
 
         public MusicPlayer()

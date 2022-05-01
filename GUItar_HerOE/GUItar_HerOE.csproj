@@ -29,7 +29,7 @@
     <None Remove="Songs\5_Darude sandstorm.wav" />
     <None Remove="Songs\6_You spin me round.wav" />
     <None Remove="Songs\7_Heyyeyaa.wav" />
-    <None Remove="Songs\8_fail.wav" />
+    <None Remove="Songs\8_click.wav" />
     <None Remove="Songs\9_menu.wav" />
   </ItemGroup>
 
@@ -61,7 +61,7 @@
     <Content Include="Songs\7_Heyyeyaa.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Songs\8_fail.wav">
+    <Content Include="Songs\8_click.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Songs\9_menu.wav">

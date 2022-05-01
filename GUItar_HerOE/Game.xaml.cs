@@ -131,7 +131,7 @@ namespace GUItar_HerOE
             switch (e.Key)
             {
                 case Key.Left:
-                    GreenColumnAction();
+                    GreenColumnAction();                   
                     break;
                 case Key.Up:
                     OrangeColumnAction();
@@ -173,18 +173,22 @@ namespace GUItar_HerOE
 
         private void GreenColumnAction()
         {
+            mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "8_click.wav");
         }
 
         private void OrangeColumnAction()
         {
+            mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "8_click.wav");
         }
 
         private void YellowColumnAction()
         {
+            mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "8_click.wav");
         }
 
         private void RedColumnAction()
         {
+            mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "8_click.wav");
         }
     }
 }
