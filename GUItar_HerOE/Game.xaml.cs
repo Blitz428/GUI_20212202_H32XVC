@@ -29,14 +29,18 @@ namespace GUItar_HerOE
         DispatcherTimer mainTimer;
         DispatcherTimer soundTimer;
         private int songLenght;
-        public int points = 0;
-        int m=1, s=20;
+        public int points;
+        public int maxpoints;
+        int m, s;
+        private string msg;
 
         public Game(int MusicID)
         {
             InitializeComponent();
             r = new Random();
             musicLogic = new MusicLogic();
+            m = 1;
+            s = 20;
             musicLogic.StartMusic(MusicID);
             songLenght = musicLogic.CurrentMusicLenght();
             
@@ -62,14 +66,23 @@ namespace GUItar_HerOE
         }
 
         private void SoundTimer_Tick(object sender, EventArgs e)
-        {
+        {                    
             s -= 1;
             if (s == 0 && m == 0)
             {
+                if (maxpoints / 6 > points * 5)
+                {
+                    msg = "Nem a játék a nehéz, Te vagy béna!";
+                }
+                else
+                {
+                    msg = "Nice, sikerült teljesítened a pályát,\n nem úgy mint a tárgyat!";
+                }
+
                 soundTimer.Stop();
                 mainTimer.Stop();
                 musicLogic.StopMusic(MusicID);
-                new GameEnd(points, "msg").ShowDialog();
+                new GameEnd(points, msg).ShowDialog();
                 this.Close();
             }
 
@@ -79,7 +92,7 @@ namespace GUItar_HerOE
                 m -= 1;
             }
 
-            timer.Content = $"{0}:{m}:{s}";
+            timer.Content = $"{0}:{m}:{s}";                 
         }
 
         private void MainTimer_Tick(object sender, EventArgs e)
@@ -90,10 +103,18 @@ namespace GUItar_HerOE
             points += YellowController.gameModel.Point;
             points += RedController.gameModel.Point;
             point.Content = points;
+
+            maxpoints = 0;
+            maxpoints += GreenController.gameModel.MaxPoint;
+            maxpoints += OrangeController.gameModel.MaxPoint;
+            maxpoints += YellowController.gameModel.MaxPoint;
+            maxpoints += RedController.gameModel.MaxPoint;        
         }
 
         private void Close(object sender, RoutedEventArgs e)
-        {           
+        {
+            mainTimer.Stop();
+            soundTimer.Stop();
             this.Close();
         }
 

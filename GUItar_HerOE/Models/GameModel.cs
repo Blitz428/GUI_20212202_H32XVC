@@ -17,6 +17,7 @@ namespace GUItar_HerOE.Models
         public double GameHeight { get; private set; }
         public int Level { get; set; }
         public int Point { get; set; }
+        public int MaxPoint { get; set; }
         public string MusicName { get; set; }
 
         public GameModel(double widht, double height)
@@ -24,6 +25,7 @@ namespace GUItar_HerOE.Models
             this.GameHeight = height;
             this.GameWidht = widht;
             Point = 10;
+            MaxPoint = -100;
             Guitars = new List<Guitar>();
             random = new Random();
             

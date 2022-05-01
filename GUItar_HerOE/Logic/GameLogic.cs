@@ -32,6 +32,7 @@ namespace GUItar_HerOE.Logic
             if (guitar.Procent > 350)
             {
                 gameModel.Point -= 10;
+                gameModel.MaxPoint += 10;
                 guitar.Procent = random.Next(0, 30);
             }
         }
@@ -57,6 +58,7 @@ namespace GUItar_HerOE.Logic
 
             if (check_guitars.Count() != 0)
             {
+                gameModel.MaxPoint += 10;
                 Guitar maxGuitar = check_guitars.OrderBy(x => x.Procent).Last();
                 Guitar guitar1 = gameModel.Guitars.Find(x => x == maxGuitar);
 
