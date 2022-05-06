@@ -19,7 +19,6 @@
     <None Remove="contact.gif" />
     <None Remove="dj.jpg" />
     <None Remove="gamebackground.png" />
-    <None Remove="Images\Animations\Lightning\Constant\constant.gif" />
     <None Remove="Images\GameImage\green.png" />
     <None Remove="Images\GameImage\red.png" />
     <None Remove="Images\GameImage\yellow.png" />
@@ -37,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Images\Animations\Lightning\Constant\constant.gif" />
+    <Resource Include="Images\Animations\Lightning\constant.gif" />
     <Content Include="Images\GameImage\green.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -80,6 +79,7 @@
   <ItemGroup>
     <Resource Include="constant.gif" />
     <Resource Include="contact.gif" />
+    <Resource Include="Images\Animations\Lightning\contact.gif" />
     <Resource Include="Images\dj.jpg" />
     <Resource Include="Images\gamebackground.png" />
     <Content Include="Images\GameImage\red.png">

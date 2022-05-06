@@ -77,14 +77,14 @@
         <Rectangle x:Name="yellowRec" Grid.Column="3" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
         <Rectangle x:Name="redRec" Grid.Column="4" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
 
-        <Image x:Name="greenLightning"  gif:ImageBehavior.AnimatedSource="/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="222,0,0,0" Visibility="Hidden" />
-        <Image x:Name="orangeLightning"  gif:ImageBehavior.AnimatedSource="/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="89,0,0,0" Grid.Column="1" Visibility="Hidden"  />
-        <Image x:Name="yellowLightning"  gif:ImageBehavior.AnimatedSource="/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,89,0" Grid.Column="3" Visibility="Hidden" />
-        <Image x:Name="redLightning"  gif:ImageBehavior.AnimatedSource="/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,222,0" Grid.Column="4" Visibility="Hidden" />
+        <Image x:Name="greenLightning"  gif:ImageBehavior.AnimatedSource="Images/Animations/Lightning/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="222,0,0,0" Visibility="Hidden" />
+        <Image x:Name="orangeLightning"  gif:ImageBehavior.AnimatedSource="Images/Animations/Lightning/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="89,0,0,0" Grid.Column="1" Visibility="Hidden"  />
+        <Image x:Name="yellowLightning"  gif:ImageBehavior.AnimatedSource="Images/Animations/Lightning/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,89,0" Grid.Column="3" Visibility="Hidden" />
+        <Image x:Name="redLightning"  gif:ImageBehavior.AnimatedSource="Images/Animations/Lightning/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,222,0" Grid.Column="4" Visibility="Hidden" />
 
-        <Image x:Name="greenStart"  gif:ImageBehavior.AnimatedSource="/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="1" Stretch="UniformToFill" Visibility="Hidden"/>
-        <Image x:Name="orangeStart" gif:ImageBehavior.AnimatedSource="/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="2" Stretch="UniformToFill" Visibility="Hidden" />
-        <Image x:Name="yellowStart" gif:ImageBehavior.AnimatedSource="/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="3" Stretch="UniformToFill" Visibility="Hidden"/>
-        <Image x:Name="redStart" gif:ImageBehavior.AnimatedSource="/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="4"  Stretch="UniformToFill" Visibility="Hidden"/>
+        <Image x:Name="greenStart"  gif:ImageBehavior.AnimatedSource="Images/Animations/Lightning/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="1" Stretch="UniformToFill" Visibility="Hidden"/>
+        <Image x:Name="orangeStart" gif:ImageBehavior.AnimatedSource="Images/Animations/Lightning/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="2" Stretch="UniformToFill" Visibility="Hidden" />
+        <Image x:Name="yellowStart" gif:ImageBehavior.AnimatedSource="Images/Animations/Lightning/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="3" Stretch="UniformToFill" Visibility="Hidden"/>
+        <Image x:Name="redStart" gif:ImageBehavior.AnimatedSource="Images/Animations/Lightning/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="4"  Stretch="UniformToFill" Visibility="Hidden"/>
     </Grid>
 </Window>
