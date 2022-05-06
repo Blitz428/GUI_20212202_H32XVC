@@ -6,10 +6,22 @@
         xmlns:local="clr-namespace:GUItar_HerOE"
         mc:Ignorable="d"
         Title="GameEnd" Height="222" Width="372" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
-    <WrapPanel Orientation="Vertical" HorizontalAlignment="Stretch">
-        <Label Content="Game is over!"  HorizontalContentAlignment="Center" ></Label>
-        <Label x:Name="lb_point" Content="" HorizontalContentAlignment="Center" ContentStringFormat="Your point is {0}."/>
-        <Label x:Name="lb_msg" Content="" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  HorizontalAlignment="Center"/>
-        <Button Content="OK"  HorizontalAlignment="Center"  Click="Button_Click"/>
-    </WrapPanel>
+    <Window.Background>
+        <ImageBrush ImageSource="Images/gamebackground.png"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="51*"/>
+            <RowDefinition Height="47*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="68*"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Foreground="White" Content="Game is over!"   HorizontalAlignment="Center" FontFamily="Consolas"></Label>
+        <Label Grid.Row="1" Foreground="White" x:Name="lb_point" Content="" HorizontalContentAlignment="Center" ContentStringFormat="Your point is {0}." FontFamily="Consolas"/>
+        <Label Grid.Row="2" Foreground="White" x:Name="lb_msg" Content="" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  HorizontalAlignment="Center" FontFamily="Consolas"/>
+        <Button Grid.Row="3" Content="Continue"  HorizontalAlignment="Stretch"  VerticalAlignment="Center" Margin="10" FontSize="20" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" FontFamily="Consolas" Click="Button_Click"/>
+       
+    </Grid>
+
 </Window>

@@ -15,8 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="constant.gif" />
+    <None Remove="contact.gif" />
     <None Remove="dj.jpg" />
     <None Remove="gamebackground.png" />
+    <None Remove="Images\Animations\Lightning\Constant\constant.gif" />
     <None Remove="Images\GameImage\green.png" />
     <None Remove="Images\GameImage\red.png" />
     <None Remove="Images\GameImage\yellow.png" />
@@ -34,6 +37,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Images\Animations\Lightning\Constant\constant.gif" />
     <Content Include="Images\GameImage\green.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -41,9 +45,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\GameImage\yellow.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Songs\1_A gondolatom már.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Songs\3_Titkos üzenet.wav">
@@ -73,18 +74,18 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
     <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="constant.gif" />
+    <Resource Include="contact.gif" />
     <Resource Include="Images\dj.jpg" />
     <Resource Include="Images\gamebackground.png" />
     <Content Include="Images\GameImage\red.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Resource Include="Images\menu.jpg" />
-    <Content Include="Songs\2_50 cent nigga cat.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
 
 </Project>
