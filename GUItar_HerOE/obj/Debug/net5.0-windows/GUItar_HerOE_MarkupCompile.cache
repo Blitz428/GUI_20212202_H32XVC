@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Egyetem\szt,gui\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\
 GUItar_HerOE
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-D:\Egyetem\szt,gui\feleves\GUItar_HerOE\App.xaml
+D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\App.xaml
 4-271149376
-131786098053
+121321216899
 26-1599846231
-2021211560773
+2101636765054
 Game.xaml;GameEnd.xaml;Levels.xaml;MainWindow.xaml;
 
-True
+False
 

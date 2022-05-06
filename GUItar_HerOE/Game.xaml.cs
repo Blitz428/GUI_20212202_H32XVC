@@ -2,6 +2,7 @@
 using GUItar_HerOE.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -15,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using WpfAnimatedGif;
 
 namespace GUItar_HerOE
 {
@@ -33,6 +35,8 @@ namespace GUItar_HerOE
         public int maxpoints;
         int m, s;
         private string msg;
+        private string imagePath = System.IO.Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName, @"GUItar_HerOE\Images\Animations\Lightning");
+
 
         public Game(int MusicID)
         {
@@ -63,6 +67,7 @@ namespace GUItar_HerOE
             mainTimer.Interval = TimeSpan.FromSeconds(0.001);
             mainTimer.Tick += MainTimer_Tick;
             mainTimer.Start();
+
         }
 
         private void SoundTimer_Tick(object sender, EventArgs e)
@@ -173,22 +178,87 @@ namespace GUItar_HerOE
 
         private void GreenColumnAction()
         {
+            greenStart.Visibility = Visibility.Visible;
+            greenLightning.Visibility = Visibility.Visible;
             mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "8_click.wav");
+            
         }
 
         private void OrangeColumnAction()
         {
+            orangeStart.Visibility = Visibility.Visible;
+            orangeLightning.Visibility = Visibility.Visible;
             mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "8_click.wav");
         }
 
         private void YellowColumnAction()
         {
+            yellowStart.Visibility = Visibility.Visible;
+            yellowLightning.Visibility = Visibility.Visible;
             mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "8_click.wav");
         }
 
         private void RedColumnAction()
         {
+            redStart.Visibility = Visibility.Visible;
+            redLightning.Visibility = Visibility.Visible;
             mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "8_click.wav");
         }
+        private void Window_KeyUp(object sender, KeyEventArgs e)
+        {
+            switch (e.Key)
+            {
+                case Key.Left:
+                    greenStart.Visibility = Visibility.Hidden;
+                    greenLightning.Visibility = Visibility.Hidden;
+                    break;
+                case Key.Up:
+                    orangeStart.Visibility = Visibility.Hidden;
+                    orangeLightning.Visibility = Visibility.Hidden;
+                    break;
+                case Key.Down:
+                    yellowStart.Visibility = Visibility.Hidden;
+                    yellowLightning.Visibility = Visibility.Hidden;
+                    break;
+                case Key.Right:
+                    redStart.Visibility = Visibility.Hidden;
+                    redLightning.Visibility = Visibility.Hidden;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        private void Window_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            if (e.Source is Label && (e.Source as Label).Name != null)
+            {
+                switch ((e.Source as Label).Name)
+                {
+                    case "GreenArrow":
+                        greenStart.Visibility = Visibility.Hidden;
+                        greenLightning.Visibility = Visibility.Hidden;
+                        break;
+                    case "OrangeArrow":
+                        orangeStart.Visibility = Visibility.Hidden;
+                        orangeLightning.Visibility = Visibility.Hidden;
+                        break;
+                    case "YellowArrow":
+                        yellowStart.Visibility = Visibility.Hidden;
+                        yellowLightning.Visibility = Visibility.Hidden;
+                        break;
+                    case "RedArrow":
+                        redStart.Visibility = Visibility.Hidden;
+                        redLightning.Visibility = Visibility.Hidden;
+                        break;
+                    default:
+                        break;
+                }
+            }
+        }
+
+
+
+
     }
 }

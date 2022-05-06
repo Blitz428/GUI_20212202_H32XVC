@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Toolkit.Mvvm": "7.1.2",
-          "MvvmLightLibs": "5.4.1.1"
+          "MvvmLightLibs": "5.4.1.1",
+          "WpfAnimatedGif": "2.0.2"
         },
         "runtime": {
           "GUItar_HerOE.dll": {}
@@ -71,6 +72,14 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "WpfAnimatedGif/2.0.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/WpfAnimatedGif.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
       }
     }
   },
@@ -114,6 +123,13 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "WpfAnimatedGif/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B0j9SqtThyHVTiOPvu6yR+39Te0g3o+7Jjb+qEm7+Iz1HRqbE5/4QV+ntHWOYYBPOUFr9x1mdzGl/EzWP+nKiA==",
+      "path": "wpfanimatedgif/2.0.2",
+      "hashPath": "wpfanimatedgif.2.0.2.nupkg.sha512"
     }
   }
 }

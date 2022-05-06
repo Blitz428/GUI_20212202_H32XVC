@@ -7,8 +7,9 @@
         xmlns:vm="clr-namespace:GUItar_HerOE.ViewModels" 
         xmlns:renderer="clr-namespace:GUItar_HerOE.Renderer"
         xmlns:controller="clr-namespace:GUItar_HerOE.Controller"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
         mc:Ignorable="d"
-        Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Game_Window_Closing" KeyDown="Window_KeyDown" MouseDown="Window_MouseDown">
+        Title="Game" ResizeMode="NoResize" Height="450" Width="800" WindowStartupLocation="CenterScreen" Closing="Game_Window_Closing" KeyDown="Window_KeyDown" MouseDown="Window_MouseDown" KeyUp="Window_KeyUp" MouseUp="Window_MouseUp">
     <Window.Background>
         <ImageBrush ImageSource="Images/gamebackground.png" TileMode="Tile"/>
     </Window.Background>
@@ -71,10 +72,19 @@
 
         <Rectangle Grid.Column="1" HorizontalAlignment="Center" Height="52" Fill="#B2008000" VerticalAlignment="Center" Width="356" Grid.ColumnSpan="4" Grid.Row="1"/>
 
-        <Rectangle Grid.Column="1" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
-        <Rectangle Grid.Column="2" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
-        <Rectangle Grid.Column="3" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
-        <Rectangle Grid.Column="4" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
+        <Rectangle x:Name="greenRec" Grid.Column="1" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
+        <Rectangle x:Name="orangeRec" Grid.Column="2" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
+        <Rectangle x:Name="yellowRec" Grid.Column="3" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
+        <Rectangle x:Name="redRec" Grid.Column="4" HorizontalAlignment="Center" Height="496" Fill="#7FCD82CA" Stroke="#FFF7EC53" StrokeThickness="3" VerticalAlignment="Center" Width="84" Grid.RowSpan="2"/>
 
+        <Image x:Name="greenLightning"  gif:ImageBehavior.AnimatedSource="/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="222,0,0,0" Visibility="Hidden" />
+        <Image x:Name="orangeLightning"  gif:ImageBehavior.AnimatedSource="/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="89,0,0,0" Grid.Column="1" Visibility="Hidden"  />
+        <Image x:Name="yellowLightning"  gif:ImageBehavior.AnimatedSource="/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,89,0" Grid.Column="3" Visibility="Hidden" />
+        <Image x:Name="redLightning"  gif:ImageBehavior.AnimatedSource="/constant.gif" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,222,0" Grid.Column="4" Visibility="Hidden" />
+
+        <Image x:Name="greenStart"  gif:ImageBehavior.AnimatedSource="/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="1" Stretch="UniformToFill" Visibility="Hidden"/>
+        <Image x:Name="orangeStart" gif:ImageBehavior.AnimatedSource="/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="2" Stretch="UniformToFill" Visibility="Hidden" />
+        <Image x:Name="yellowStart" gif:ImageBehavior.AnimatedSource="/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="3" Stretch="UniformToFill" Visibility="Hidden"/>
+        <Image x:Name="redStart" gif:ImageBehavior.AnimatedSource="/contact.gif" Margin="6,318,6,60" Grid.RowSpan="3" Grid.Column="4"  Stretch="UniformToFill" Visibility="Hidden"/>
     </Grid>
 </Window>
