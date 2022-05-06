@@ -40,9 +40,10 @@ namespace GUItar_HerOE
             int index = int.Parse((sender as Button).Tag.ToString().Split('_')[1]);
             new Game(index).ShowDialog();
         }
-      
 
 
+        private BitmapImage label;
+        private ImageBrush buttonBackground;
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             for (int i = 0; i < 7; i++)
@@ -55,7 +56,13 @@ namespace GUItar_HerOE
                 button.Width = (this.ActualWidth / 3)-20;
                 button.Height = (this.ActualHeight / 4.8)-20;
                 button.Content = "Level "+(i+1) +".";
-                button.Background = new SolidColorBrush(Color.FromArgb(70, 205, 20, 202));
+                label = new BitmapImage();
+                label.BeginInit();
+                label.UriSource = new Uri($"GUItar_HerOE/SongCovers/{i+1}.jpg", UriKind.RelativeOrAbsolute);
+                label.EndInit();
+                buttonBackground = new ImageBrush();
+                buttonBackground.ImageSource = label;
+                button.Background = buttonBackground;
                 button.Foreground = new SolidColorBrush(Color.FromRgb(247, 236, 83));
                 button.BorderBrush = new SolidColorBrush(Color.FromRgb(247, 236, 83));
                 button.FontWeight = FontWeights.Bold;
