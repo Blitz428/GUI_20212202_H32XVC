@@ -193,4 +193,3 @@ D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE
 D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\WpfAnimatedGif.dll
 D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GameEnd.g.cs
 D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GameEnd.baml
-D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache
