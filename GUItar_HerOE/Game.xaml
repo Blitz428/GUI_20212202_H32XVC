@@ -31,7 +31,10 @@
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,84,0" Grid.RowSpan="2">
             <Label Content="Music name:"  FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" />
-            <Label x:Name="MusicName" Content="" FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" />
+            <Viewbox StretchDirection="DownOnly">
+                <Label x:Name="MusicName" Content="" FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" HorizontalContentAlignment="Center" />
+            </Viewbox>
+            
             <MediaElement x:Name="mediaElement" Visibility="Hidden"/>
         </StackPanel>
 
