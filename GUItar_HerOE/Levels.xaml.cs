@@ -24,6 +24,8 @@ namespace GUItar_HerOE
         // back button: <Button Content="Back" Click="Button_Click"></Button>
         // ResizeMode="NoResize"
 
+        private Button button;
+
         public Levels()
         {
             InitializeComponent();
@@ -41,14 +43,14 @@ namespace GUItar_HerOE
             new Game(index).ShowDialog();
         }
 
-
+        
         private BitmapImage label;
         private ImageBrush buttonBackground;
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             for (int i = 0; i < 7; i++)
             {
-                Button button = new Button();
+                button = new Button();
                 //button.IsEnabled = false;
                 button.Tag = "button_" + i;
                 button.Margin = new Thickness(10);
@@ -68,6 +70,8 @@ namespace GUItar_HerOE
                 button.FontWeight = FontWeights.Bold;
                 button.FontSize = 20;
                 button.FontFamily = new FontFamily("Consolas");
+                button.Width = button.Height*2;
+                button.Height = button.Width;
                 button.Click += LevelsButton_Click;
                 levelsWrap.Children.Add(button);                
             }
@@ -86,9 +90,13 @@ namespace GUItar_HerOE
             button_menu.BorderBrush = new SolidColorBrush(Color.FromRgb(205, 130, 202));
             button_menu.FontWeight = FontWeights.Bold;
             button_menu.FontSize = 20;
+            button_menu.Width = button_menu.Height * 2;
+            button_menu.Height = button_menu.Width;
             button_menu.FontFamily = new FontFamily("Consolas");
             levelsWrap.Children.Add(button_menu);
 
         }
+
+
     }
 }

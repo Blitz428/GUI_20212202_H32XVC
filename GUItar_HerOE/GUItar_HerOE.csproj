@@ -15,8 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="constant.gif" />
-    <None Remove="contact.gif" />
     <None Remove="dj.jpg" />
     <None Remove="gamebackground.png" />
     <None Remove="Images\GameImage\green.png" />
@@ -77,8 +75,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="constant.gif" />
-    <Resource Include="contact.gif" />
     <Resource Include="Images\Animations\Lightning\contact.gif" />
     <Resource Include="Images\dj.jpg" />
     <Resource Include="Images\gamebackground.png" />
