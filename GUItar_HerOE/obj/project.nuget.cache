@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Lc6Cn/33KYwfFprgsO1/Q8pmGpqvSLT6bH0fYR9+oEOxGHIZKH+NzvXvil9Ox9d2d0g8hBTRZr+tbXTUgokl0A==",
+  "dgSpecHash": "NIHo5vEF0Vk6998bdUl+khpajvZsL9Qa+a6xHh2VSKx+HNd3JJB8ZE4ah6st5bu1Fx/YdR+IFiGnySJ4VX8H7Q==",
   "success": true,
-  "projectFilePath": "D:\\OneDrive - Óbudai egyetem\\6. Félév\\SZTGUI\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
+  "projectFilePath": "D:\\..Iskola\\..Óbudai egyetem\\.2021 - 22 tanév 6. félév\\Szoftver 4\\.Játék\\Git mappa\\GUI_20212202_H32XVC\\GUItar_HerOE\\GUItar_HerOE.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\szege\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-    "C:\\Users\\szege\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\szege\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
-    "C:\\Users\\szege\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
-    "C:\\Users\\szege\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\szege\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hegedűs Bence\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
   ],
   "logs": [
     {

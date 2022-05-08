@@ -28,6 +28,7 @@ namespace GUItar_HerOE
         private int MusicID;
         private Random r;
         private MusicLogic musicLogic;
+        private ImageLoader imageLoader;
         DispatcherTimer mainTimer;
         DispatcherTimer soundTimer;
         private int songLenght;
@@ -43,6 +44,7 @@ namespace GUItar_HerOE
             InitializeComponent();
             r = new Random();
             musicLogic = new MusicLogic();
+            imageLoader = new ImageLoader();
             m = 1;
             s = 20;
             musicLogic.StartMusic(MusicID);
@@ -57,6 +59,8 @@ namespace GUItar_HerOE
             MusicName.Content = musicLogic.CurrentMusicName();
             levels.Content = MusicID+1;
             this.MusicID = MusicID;
+
+            cover.Source = new Uri(imageLoader.imageFolderPath + $"{MusicID+1}.jpg");         
 
             GreenController.Setup("green", (double)r.Next(1, 20) / 1000);
             OrangeController.Setup("orange", (double)r.Next(1, 20) / 1000);

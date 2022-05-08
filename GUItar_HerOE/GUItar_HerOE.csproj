@@ -22,6 +22,13 @@
     <None Remove="Images\GameImage\yellow.png" />
     <None Remove="menu.jpg" />
     <None Remove="orange.png" />
+    <None Remove="SongCovers\1.jpg" />
+    <None Remove="SongCovers\2.jpg" />
+    <None Remove="SongCovers\3.jpg" />
+    <None Remove="SongCovers\4.jpg" />
+    <None Remove="SongCovers\5.jpg" />
+    <None Remove="SongCovers\6.jpg" />
+    <None Remove="SongCovers\7.jpg" />
     <None Remove="Songs\1_A gondolatom már.wav" />
     <None Remove="Songs\2_50 cent nigga cat.wav" />
     <None Remove="Songs\3_Titkos üzenet.wav" />
@@ -42,6 +49,27 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\GameImage\yellow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SongCovers\1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SongCovers\2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SongCovers\3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SongCovers\4.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SongCovers\5.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SongCovers\6.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SongCovers\7.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Songs\3_Titkos üzenet.wav">

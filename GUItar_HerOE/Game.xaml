@@ -34,8 +34,9 @@
             <Viewbox StretchDirection="DownOnly">
                 <Label x:Name="MusicName" Content="" FontSize="20" HorizontalAlignment="Center" FontFamily="Consolas" Foreground="White" HorizontalContentAlignment="Center" />
             </Viewbox>
-            
             <MediaElement x:Name="mediaElement" Visibility="Hidden"/>
+            <Label Content=""></Label>
+            <MediaElement x:Name="cover" Height="170" Width="170"/>
         </StackPanel>
 
         <StackPanel x:Name="GreenColumn" Grid.Column="1" Grid.Row="0">

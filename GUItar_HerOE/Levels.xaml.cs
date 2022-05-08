@@ -1,4 +1,5 @@
-﻿using GUItar_HerOE.Models;
+﻿using GUItar_HerOE.Logic;
+using GUItar_HerOE.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -25,11 +26,13 @@ namespace GUItar_HerOE
         // ResizeMode="NoResize"
 
         private Button button;
+        private ImageLoader imageLoader;
 
         public Levels()
         {
             InitializeComponent();
-            List<Level> levels = new List<Level>();      
+            List<Level> levels = new List<Level>();
+            imageLoader = new ImageLoader();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -60,7 +63,8 @@ namespace GUItar_HerOE
                 button.Content = "Level "+(i+1) +".";
                 label = new BitmapImage();
                 label.BeginInit();
-                label.UriSource = new Uri($"GUItar_HerOE/SongCovers/{i+1}.jpg", UriKind.RelativeOrAbsolute);
+                //label.UriSource = new Uri($"GUItar_HerOE/SongCovers/{i+1}.jpg", UriKind.RelativeOrAbsolute);
+                label.UriSource = new Uri(imageLoader.imageFolderPath+imageLoader.images[i]);
                 label.EndInit();
                 buttonBackground = new ImageBrush();
                 buttonBackground.ImageSource = label;

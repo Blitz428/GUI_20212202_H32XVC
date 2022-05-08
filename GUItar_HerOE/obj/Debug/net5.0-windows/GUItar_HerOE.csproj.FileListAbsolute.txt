@@ -122,13 +122,11 @@ D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\G
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\ref\GUItar_HerOE.dll
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.pdb
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.genruntimeconfig.cache
-D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\1_A gondolatom már.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\3_Titkos üzenet.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\4_Never gonna give you up.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\5_Darude sandstorm.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\6_You spin me round.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\7_Heyyeyaa.wav
-D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\2_50 cent nigga cat.wav
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_Content.g.cs
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Images\GameImage\green.png
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\Images\GameImage\orange.png
@@ -194,3 +192,11 @@ D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE
 D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.pdb
 D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.genruntimeconfig.cache
 D:\OneDrive - Óbudai egyetem\6. Félév\SZTGUI\GUI_20212202_H32XVC\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\WpfAnimatedGif.dll
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\1.jpg
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\2.jpg
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\3.jpg
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\4.jpg
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\5.jpg
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\6.jpg
+D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\7.jpg
