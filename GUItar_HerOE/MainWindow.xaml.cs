@@ -25,11 +25,13 @@ namespace GUItar_HerOE
     public partial class MainWindow : Window
     {
         private Random r;
+        private Save save;
         public MainWindow()
         {
             InitializeComponent();
             (this.DataContext as MainWindowViewModel).MenuMusicStart();
             r = new Random();
+            save = new Save();
         }
 
         private void Help_Click(object sender, RoutedEventArgs e)
@@ -60,6 +62,11 @@ namespace GUItar_HerOE
         public void CustomMusicDelete(object sender, System.ComponentModel.CancelEventArgs e)
         {
             (this.DataContext as MainWindowViewModel).CustomMusicDelete();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            save.Delete();
         }
     }
 }

@@ -22,23 +22,27 @@ namespace GUItar_HerOE
     {
         //private MusicLogic musicLogic;
         //private MediaElement mediaElement;
-        public GameEnd(int point, string msg)
+        private Save save;
+        public GameEnd(int level ,int point, string msg)
         {
             InitializeComponent();
             //musicLogic = new MusicLogic();
             //mediaElement = new MediaElement();
             lb_point.Content = point;
             lb_msg.Content = msg;
-            //if (msg== "Nem a játék a nehéz, Te vagy béna!")
-            //{
-            //    mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "lose.wav");
-                
-            //}
-            //else
-            //{
-            //    mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "win.wav");
-            //}
+            save = new Save();
             
+            if (msg == "Nem a játék a nehéz, Te vagy béna!")
+            {
+                //mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "lose.wav");
+
+            }
+            else
+            {
+                save.Saveing(level);
+                //mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "win.wav");
+            }
+
 
 
         }

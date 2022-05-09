@@ -40,6 +40,6 @@
         <Label Foreground="White" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Consolas" >Version: V0.5</Label>
         <Label Foreground="White" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Consolas">Created by: Hegedűs Bence, Turcsányi Patrick, Szegedi Tamás</Label>
         <Button Grid.Row="2" Grid.Column="2" Margin="5" Click="Help_Click" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" Content="Help" FontFamily="Consolas"></Button>
-        <Button Grid.Row="1" Grid.Column="2" Margin="5" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" Content="{Binding IsUnlock}" ContentStringFormat="Unlock: {0}" Command="{Binding UnlockLevels}" FontFamily="Consolas"></Button>
+        <Button Grid.Row="1" Grid.Column="2" Margin="5" Background="#B2CD82CA" Foreground="#FFF7EC53" BorderBrush="#FFECF055" Content="Delete save" FontFamily="Consolas" Click="Button_Click_1"></Button>
     </Grid>
 </Window>

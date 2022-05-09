@@ -112,4 +112,8 @@
     <Resource Include="Images\menu.jpg" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Save\" />
+  </ItemGroup>
+
 </Project>

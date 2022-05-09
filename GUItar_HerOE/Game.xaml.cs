@@ -86,12 +86,11 @@ namespace GUItar_HerOE
                 else
                 {
                     msg = "Nice, sikerült teljesítened a pályát,\n nem úgy mint a tárgyat!";
-                }
-
+                }             
                 soundTimer.Stop();
                 mainTimer.Stop();
                 musicLogic.StopMusic(MusicID);
-                new GameEnd(points, msg).ShowDialog();
+                new GameEnd(MusicID, points, msg).ShowDialog();
                 this.Close();
             }
 

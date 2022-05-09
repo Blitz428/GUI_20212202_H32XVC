@@ -27,12 +27,14 @@ namespace GUItar_HerOE
 
         private Button button;
         private ImageLoader imageLoader;
+        private Save save;
 
         public Levels()
         {
             InitializeComponent();
             List<Level> levels = new List<Level>();
             imageLoader = new ImageLoader();
+            save = new Save();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -44,13 +46,16 @@ namespace GUItar_HerOE
         {
             int index = int.Parse((sender as Button).Tag.ToString().Split('_')[1]);
             new Game(index).ShowDialog();
+            this.Close();
         }
 
         
         private BitmapImage label;
         private ImageBrush buttonBackground;
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        public void Window_Loaded(object sender, RoutedEventArgs e)
         {
+            save.Loading();
+
             for (int i = 0; i < 7; i++)
             {
                 button = new Button();
@@ -69,8 +74,18 @@ namespace GUItar_HerOE
                 buttonBackground = new ImageBrush();
                 buttonBackground.ImageSource = label;
                 button.Background = buttonBackground;
-                button.Foreground = new SolidColorBrush(Color.FromRgb(247, 236, 83));
-                button.BorderBrush = new SolidColorBrush(Color.FromRgb(247, 236, 83));
+                
+                if (save.CompletedLevels.Contains(i))
+                {                        
+                    button.Foreground = new SolidColorBrush(Color.FromRgb(0, 255, 0));
+                    button.BorderBrush = new SolidColorBrush(Color.FromRgb(0, 255, 0));
+                }
+                else
+                {
+                    button.Foreground = new SolidColorBrush(Color.FromRgb(247, 236, 83));
+                    button.BorderBrush = new SolidColorBrush(Color.FromRgb(247, 236, 83));
+                }
+                                          
                 button.FontWeight = FontWeights.Bold;
                 button.FontSize = 20;
                 button.FontFamily = new FontFamily("Consolas");
@@ -99,8 +114,6 @@ namespace GUItar_HerOE
             button_menu.FontFamily = new FontFamily("Consolas");
             levelsWrap.Children.Add(button_menu);
 
-        }
-
-
+        }      
     }
 }
