@@ -37,8 +37,6 @@ namespace GUItar_HerOE.Renderer
             {
                 drawingContext.DrawRectangle(GuitarBrush_green, null, new Rect(20, guitar.Procent, 40, 40));
             }
-            // for debug
-            //DraWText(drawingContext);
         }
 
         public void DraWText(DrawingContext drawingContext)

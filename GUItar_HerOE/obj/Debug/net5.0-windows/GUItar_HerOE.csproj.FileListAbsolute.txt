@@ -200,3 +200,61 @@ D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\G
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\5.jpg
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\6.jpg
 D:\..Iskola\..Óbudai egyetem\.2021 - 22 tanév 6. félév\Szoftver 4\.Játék\Git mappa\GUI_20212202_H32XVC\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\7.jpg
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.exe
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Images\GameImage\green.png
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Images\GameImage\orange.png
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Images\GameImage\yellow.png
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\1.jpg
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\2.jpg
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\3.jpg
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\4.jpg
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\5.jpg
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\6.jpg
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\SongCovers\7.jpg
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\3_Titkos üzenet.wav
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\4_Never gonna give you up.wav
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\5_Darude sandstorm.wav
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\6_You spin me round.wav
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\7_Heyyeyaa.wav
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\8_click.wav
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Songs\9_menu.wav
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Images\GameImage\red.png
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.deps.json
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.runtimeconfig.json
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.runtimeconfig.dev.json
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\ref\GUItar_HerOE.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\GUItar_HerOE.pdb
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\Microsoft.Toolkit.Mvvm.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.Extras.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.Platform.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\GalaSoft.MvvmLight.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\System.Windows.Interactivity.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\System.Runtime.CompilerServices.Unsafe.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\bin\Debug\net5.0-windows\WpfAnimatedGif.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.AssemblyReference.cache
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\Game.g.cs
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GameEnd.g.cs
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\Levels.g.cs
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\App.g.cs
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_Content.g.cs
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_MarkupCompile.cache
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE_MarkupCompile.lref
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\Game.baml
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GameEnd.baml
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\Levels.baml
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\MainWindow.baml
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.g.resources
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.AssemblyInfoInputs.cache
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.AssemblyInfo.cs
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.CoreCompileInputs.cache
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.csproj.CopyComplete
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\ref\GUItar_HerOE.dll
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.pdb
+D:\Egyetem\szt,gui\feleves\feleves\GUItar_HerOE\obj\Debug\net5.0-windows\GUItar_HerOE.genruntimeconfig.cache

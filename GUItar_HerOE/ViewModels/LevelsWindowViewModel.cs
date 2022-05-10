@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace GUItar_HerOE.ViewModels
 {
+    //Stays because it's built into the game.
     class LevelsWindowViewModel : ObservableRecipient
     {
     }

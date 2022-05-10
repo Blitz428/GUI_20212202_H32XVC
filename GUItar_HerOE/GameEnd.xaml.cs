@@ -20,36 +20,22 @@ namespace GUItar_HerOE
     /// </summary>
     public partial class GameEnd : Window
     {
-        //private MusicLogic musicLogic;
-        //private MediaElement mediaElement;
         private Save save;
         public GameEnd(int level ,int point, string msg)
         {
             InitializeComponent();
-            //musicLogic = new MusicLogic();
-            //mediaElement = new MediaElement();
             lb_point.Content = point;
             lb_msg.Content = msg;
             save = new Save();
             
-            if (msg == "Nem a játék a nehéz, Te vagy béna!")
-            {
-                //mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "lose.wav");
-
-            }
-            else
+            if (msg != "Nem a játék a nehéz, Te vagy béna!")
             {
                 save.Saveing(level);
-                //mediaElement.Source = new Uri(musicLogic.musicPlayer.songFolderPath + "win.wav");
             }
-
-
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
             this.Close();
         }
     }

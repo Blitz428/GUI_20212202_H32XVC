@@ -31,7 +31,7 @@ namespace GUItar_HerOE.Models
             
             for (int i = 1; i <= NumGuitar; i++)
             {
-                Guitars.Add(new Guitar((i * (350 / random.Next(2,4)))+10 / NumGuitar )); //* random.Next(25,40)
+                Guitars.Add(new Guitar((i * (350 / random.Next(2,4)))+10 / NumGuitar ));
             }
         }
     }

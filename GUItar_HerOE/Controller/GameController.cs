@@ -57,9 +57,7 @@ namespace GUItar_HerOE.Controller
                 mainTimer.Tick += MainTimer_Tick;
                 mainTimer.Start();
             }
-
-            //InvalidateVisual();
-        }       
+        }
 
         private void MainTimer_Tick(object sender, EventArgs e)
         {
@@ -119,7 +117,7 @@ namespace GUItar_HerOE.Controller
                 default:
                     break;
             }
-           this.InvalidateVisual();            
+            this.InvalidateVisual();
         }
     }
 }

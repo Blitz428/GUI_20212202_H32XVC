@@ -22,9 +22,6 @@ namespace GUItar_HerOE
     /// </summary>
     public partial class Levels : Window
     {
-        // back button: <Button Content="Back" Click="Button_Click"></Button>
-        // ResizeMode="NoResize"
-
         private Button button;
         private ImageLoader imageLoader;
         private Save save;
@@ -32,7 +29,6 @@ namespace GUItar_HerOE
         public Levels()
         {
             InitializeComponent();
-            List<Level> levels = new List<Level>();
             imageLoader = new ImageLoader();
             save = new Save();
         }
@@ -59,7 +55,6 @@ namespace GUItar_HerOE
             for (int i = 0; i < 7; i++)
             {
                 button = new Button();
-                //button.IsEnabled = false;
                 button.Tag = "button_" + i;
                 button.Margin = new Thickness(10);
                 button.Padding = new Thickness(10);
@@ -68,7 +63,6 @@ namespace GUItar_HerOE
                 button.Content = "Level "+(i+1) +".";
                 label = new BitmapImage();
                 label.BeginInit();
-                //label.UriSource = new Uri($"GUItar_HerOE/SongCovers/{i+1}.jpg", UriKind.RelativeOrAbsolute);
                 label.UriSource = new Uri(imageLoader.imageFolderPath+imageLoader.images[i]);
                 label.EndInit();
                 buttonBackground = new ImageBrush();
